@@ -13728,12 +13728,12 @@
         }
 
         function arStartRead() {
-            // Get current surah number from the stored state
-            var titleEl = document.getElementById('quran-surah-title');
-            if (!titleEl) return;
-            var match = titleEl.textContent.match(/(\d+)\./);
-            if (!match) return;
-            arState.surahNumber = parseInt(match[1]);
+            // Use the stored surah number directly (set by readSurah function)
+            arState.surahNumber = currentOpenSurah;
+            if (!arState.surahNumber) {
+                showToast('⚠️ Please open a Surah first');
+                return;
+            }
 
             // Count ayah cards
             var cards = document.querySelectorAll('.ayah-card');
@@ -13787,44 +13787,63 @@
             // Stop any previously playing audio
             if (arState.audio) {
                 arState.audio.pause();
+                arState.audio.removeAttribute('src');
+                arState.audio.load();
                 arState.audio = null;
             }
 
-            // Build audio URL (Alquran Cloud - Mishary Al-Afasy individual ayah audio)
-            // The API provides per-ayah audio via: https://cdn.islamic.network/quran/audio/128/ar.alafasy/{absoluteAyahNumber}.mp3
+            // Build audio URL — Mishary Al-Afasy per-ayah audio
             var absoluteAyahNum = getAbsoluteAyahNumber(arState.surahNumber, arState.currentAyah);
             var audioUrl = 'https://cdn.islamic.network/quran/audio/128/ar.alafasy/' + absoluteAyahNum + '.mp3';
 
-            arState.audio = new Audio(audioUrl);
+            console.log('Auto-Read: Playing Surah ' + arState.surahNumber + ', Ayah ' + arState.currentAyah + ', Absolute #' + absoluteAyahNum);
+            console.log('Auto-Read: Audio URL = ' + audioUrl);
 
-            arState.audio.addEventListener('ended', function() {
-                // Move to next ayah
+            var audio = new Audio();
+            audio.crossOrigin = 'anonymous';
+            audio.preload = 'auto';
+            arState.audio = audio;
+
+            // When audio finishes, move to next ayah
+            audio.addEventListener('ended', function() {
+                if (!arState.active) return;
                 if (arState.currentAyah < arState.totalAyahs) {
                     arState.currentAyah++;
                     arPlayCurrentAyah();
                 } else {
-                    // Finished all ayahs
                     showToast('✅ Surah reading complete!');
                     arStopRead();
                 }
             });
 
-            arState.audio.addEventListener('error', function() {
-                showToast('⚠️ Audio unavailable for Ayah ' + arState.currentAyah + ', skipping...');
-                // Try next ayah after a short delay
+            // Handle loading errors
+            audio.addEventListener('error', function(e) {
+                console.error('Auto-Read audio error:', e);
+                showToast('⚠️ Audio error for Ayah ' + arState.currentAyah + ', trying next...');
                 setTimeout(function() {
+                    if (!arState.active) return;
                     if (arState.currentAyah < arState.totalAyahs) {
                         arState.currentAyah++;
                         arPlayCurrentAyah();
                     } else {
                         arStopRead();
                     }
-                }, 1000);
+                }, 1500);
             });
 
-            arState.audio.play().catch(function(err) {
-                console.warn('Auto-read audio play error:', err);
-            });
+            // When audio is ready to play, play it
+            audio.addEventListener('canplaythrough', function() {
+                if (arState.active && arState.playing) {
+                    audio.play().catch(function(err) {
+                        console.error('Auto-Read play() error:', err);
+                        showToast('⚠️ Cannot play audio. Tap the screen first, then try again.');
+                    });
+                }
+            }, { once: true });
+
+            // Set the source to start loading
+            audio.src = audioUrl;
+            audio.load();
         }
 
         // Get absolute ayah number (across entire Quran) from surah + ayah
