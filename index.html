@@ -4632,10 +4632,33 @@
                                 <option value="en.transliteration">Roman English</option>
                                 <option value="kn">Kannada (ಕನ್ನಡ)</option>
                             </select>
+                            <button onclick="toggleAutoRead()" id="autoReadBtn" style="padding: 4px 12px; border-radius: 6px; background: linear-gradient(135deg, var(--gold), #e8a900); color: #1a1a2e; border: none; font-size: 0.8rem; font-weight: 600; cursor: pointer; margin-left: 6px; margin-top: 4px; display: flex; align-items: center; gap: 4px;">
+                                <i class="fas fa-headphones"></i> Auto Read
+                            </button>
                         </div>
                         <div class="quran-view" id="quranContent" role="article" aria-label="Surah content">
                             <!-- Loaded by JS -->
                         </div>
+                    </div>
+                </div>
+
+                <!-- Auto-Read Floating Player Bar -->
+                <div class="auto-read-bar" id="autoReadBar">
+                    <div class="ar-info">
+                        <div class="ar-title">
+                            <div class="ar-pulse"></div>
+                            <span>🎧 AI Auto Read</span>
+                        </div>
+                        <span class="ar-ayah-label" id="arAyahLabel">Ayah 1 / 1</span>
+                    </div>
+                    <div class="ar-controls">
+                        <button class="ar-btn" onclick="arPrevAyah()" title="Previous Ayah"><i class="fas fa-step-backward"></i></button>
+                        <button class="ar-btn ar-play-btn" onclick="arTogglePlay()" id="arPlayBtn" title="Play / Pause"><i class="fas fa-play"></i></button>
+                        <button class="ar-btn" onclick="arNextAyah()" title="Next Ayah"><i class="fas fa-step-forward"></i></button>
+                        <button class="ar-btn ar-stop-btn" onclick="arStopRead()" title="Stop"><i class="fas fa-stop"></i></button>
+                    </div>
+                    <div class="ar-progress">
+                        <div class="ar-progress-fill" id="arProgressFill"></div>
                     </div>
                 </div>
             </div>
