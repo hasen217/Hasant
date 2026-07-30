@@ -4507,7 +4507,7 @@
                             <select id="quran-translation-lang" onchange="changeQuranTranslation()" style="padding: 4px 8px; border-radius: 6px; background: var(--card-bg); color: var(--gold); border: 1px solid var(--card-border); margin-left: auto; font-size: 0.9rem; margin-top: 4px;">
                                 <option value="en.asad">English (Default)</option>
                                 <option value="ur.jalandhry">Urdu (اردو)</option>
-                                <option value="hi.hindi">Hindi (हिंदी)</option>
+                                <option value="hi">Hindi (हिंदी)</option>
                                 <option value="en.transliteration">Roman English</option>
                                 <option value="kn">Kannada (ಕನ್ನಡ)</option>
                             </select>
@@ -13228,18 +13228,41 @@
             
             try {
                 showToast('Fetching translation...');
-                let apiUrl = `https://api.alquran.cloud/v1/surah/${surahNumber}/${lang}`;
+                let apiUrl = '';
+                let isQuranEnc = false;
+                
+                if (lang === 'kn') {
+                    apiUrl = `https://quranenc.com/api/v1/translation/sura/kannada_mansoor/${surahNumber}`;
+                    isQuranEnc = true;
+                } else if (lang === 'hi') {
+                    apiUrl = `https://quranenc.com/api/v1/translation/sura/hindi_omari/${surahNumber}`;
+                    isQuranEnc = true;
+                } else {
+                    apiUrl = `https://api.alquran.cloud/v1/surah/${surahNumber}/${lang}`;
+                }
                 
                 let response = await fetch(apiUrl);
                 let data = await response.json();
                 
-                if (data.code === 200 && data.data.ayahs) {
+                if (!isQuranEnc && data.code === 200 && data.data.ayahs) {
                     const ayahs = data.data.ayahs;
                     for (let i = 0; i < ayahs.length; i++) {
                         let ayahId = 'ayah-' + surahNumber + '-' + (i + 1);
                         let transEl = document.getElementById('translation-' + ayahId);
                         if (transEl) {
-                            transEl.innerHTML = `<span class="trans-label">📖 Translation</span>${ayahs[i].text}`;
+                            transEl.innerHTML = `<span class="trans-label">📖 Translation</span><br/><br/>${ayahs[i].text}`;
+                            transEl.classList.add('open');
+                        }
+                    }
+                    showToast('Translation loaded successfully!');
+                } else if (isQuranEnc && data.result) {
+                    const ayahs = data.result;
+                    for (let i = 0; i < ayahs.length; i++) {
+                        let ayahId = 'ayah-' + surahNumber + '-' + ayahs[i].aya;
+                        let transEl = document.getElementById('translation-' + ayahId);
+                        if (transEl) {
+                            transEl.innerHTML = `<span class="trans-label">📖 Translation</span><br/><br/>${ayahs[i].translation}`;
+                            transEl.classList.add('open');
                         }
                     }
                     showToast('Translation loaded successfully!');
