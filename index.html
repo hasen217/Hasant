@@ -4501,9 +4501,16 @@
                         </div>
                     </div>
                     <div id="quran-read-view" class="hidden">
-                        <div class="screen-header">
+                        <div class="screen-header" style="flex-wrap: wrap;">
                             <button class="btn-back" onclick="showQuranList()" data-i18n="back">← Back</button>
-                            <h2 id="quran-surah-title">📖 Surah</h2>
+                            <h2 id="quran-surah-title" style="margin-bottom: 4px;">📖 Surah</h2>
+                            <select id="quran-translation-lang" onchange="changeQuranTranslation()" style="padding: 4px 8px; border-radius: 6px; background: var(--card-bg); color: var(--gold); border: 1px solid var(--card-border); margin-left: auto; font-size: 0.9rem; margin-top: 4px;">
+                                <option value="en.asad">English (Default)</option>
+                                <option value="ur.jalandhry">Urdu (اردو)</option>
+                                <option value="hi.hindi">Hindi (हिंदी)</option>
+                                <option value="en.transliteration">Roman English</option>
+                                <option value="kn">Kannada (ಕನ್ನಡ)</option>
+                            </select>
                         </div>
                         <div class="quran-view" id="quranContent" role="article" aria-label="Surah content">
                             <!-- Loaded by JS -->
@@ -13208,7 +13215,49 @@
         // - Three-dot menu with Copy, Share, Bookmark, Notes, Play Audio
         // - Smooth animations
         // ============================================================
+        let currentOpenSurah = 1;
+        
+        async function changeQuranTranslation() {
+            const lang = document.getElementById('quran-translation-lang').value;
+            const surahNumber = currentOpenSurah;
+            
+            if (lang === 'en.asad') {
+                readSurah(surahNumber); 
+                return;
+            }
+            
+            try {
+                showToast('Fetching translation...');
+                let apiUrl = `https://api.alquran.cloud/v1/surah/${surahNumber}/${lang}`;
+                
+                let response = await fetch(apiUrl);
+                let data = await response.json();
+                
+                if (data.code === 200 && data.data.ayahs) {
+                    const ayahs = data.data.ayahs;
+                    for (let i = 0; i < ayahs.length; i++) {
+                        let ayahId = 'ayah-' + surahNumber + '-' + (i + 1);
+                        let transEl = document.getElementById('translation-' + ayahId);
+                        if (transEl) {
+                            transEl.innerHTML = `<span class="trans-label">📖 Translation</span>${ayahs[i].text}`;
+                        }
+                    }
+                    showToast('Translation loaded successfully!');
+                } else {
+                    showToast('Translation not available in this language.');
+                }
+            } catch (err) {
+                console.error(err);
+                showToast('Error loading translation.');
+            }
+        }
+
         function readSurah(surahNumber) {
+            currentOpenSurah = surahNumber;
+            const langSelect = document.getElementById('quran-translation-lang');
+            if(langSelect && langSelect.value !== 'en.asad') {
+                langSelect.value = 'en.asad';
+            }
             var surah = QURAN_DATA.find(function(s) { return s.number === surahNumber; });
             if (!surah) return;
             document.getElementById('quran-list-view').classList.add('hidden');
