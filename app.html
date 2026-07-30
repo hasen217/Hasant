@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🌙 Islamic App - Complete</title>
+    <style>
+        /* ============================================
+           CSS VARIABLES
+        ============================================ */
+        :root {
+            --gold: #d4af37;
+            --gold-dark: #b8960f;
+            --green-dark: #0f3a2a;
+            --green-medium: #1a6a4a;
+            --green-light: #2a8a6a;
+            --shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            --glass-bg: rgba(255, 255, 255, 0.10);
+            --glass-border: rgba(255, 255, 255, 0.15);
+            --text-primary: #fff;
+            --text-secondary: rgba(255, 255, 255, 0.85);
+            --text-muted: rgba(255, 255, 255, 0.6);
+            --card-bg: rgba(255, 255, 255, 0.12);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --bg-gradient: linear-gradient(145deg, #0a1628 0%, #1a3a6a 50%, #2a6a8a 100%);
+            --nav-bg: rgba(255, 255, 255, 0.08);
+            --footer-bg: rgba(0, 0, 0, 0.4);
+        }
+
+        [data-theme="dark"] {
+            --glass-bg: rgba(255, 255, 255, 0.08);
+            --text-primary: #fff;
+            --text-secondary: rgba(255, 255, 255, 0.85);
+            --text-muted: rgba(255, 255, 255, 0.5);
+            --card-bg: rgba(255, 255, 255, 0.06);
+            --bg-gradient: linear-gradient(145deg, #0a0a1a 0%, #1a1a3a 50%, #2a1a4a 100%);
+            --nav-bg: rgba(255, 255, 255, 0.06);
+        }
+
+        [data-theme="light"] {
+            --glass-bg: rgba(255, 255, 255, 0.6);
+            --text-primary: #1a2a1a;
+            --text-secondary: #2a3a2a;
+            --text-muted: #5a6a5a;
+            --card-bg: rgba(255, 255, 255, 0.5);
+            --bg-gradient: linear-gradient(145deg, #e8f5e9 0%, #c8e6c9 50%, #a5d6a7 100%);
+            --nav-bg: rgba(255, 255, 255, 0.4);
+        }
+
+        /* ============================================
+           RESET & BASE
+        ============================================ */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: var(--bg-gradient);
+            min-height: 100vh;
+            color: var(--text-primary);
+            overflow-x: hidden;
+            transition: background 0.5s ease, color 0.3s ease;
+            padding-bottom: 20px;
+        }
+
+        /* ============================================
+           NAVBAR
+        ============================================ */
+        .navbar {
+            background: var(--nav-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            padding: 12px 24px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid var(--glass-border);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease;
+        }
+
+        .nav-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: var(--gold);
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .logo span {
+            font-size: 1.6rem;
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .theme-toggle {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 30px;
+            padding: 4px 10px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.3s ease;
+            color: var(--text-primary);
+            font-size: 0.8rem;
+        }
+
+        .theme-toggle:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        /* ============================================
+           CONTAINER
+        ============================================ */
+        .container {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 0 16px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--gold);
+            margin: 30px 0 16px;
+        }
+
+        .section-title .icon {
+            font-size: 2rem;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+        }
+
+        /* ============================================
+           QURAN AUDIO CARD
+        ============================================ */
+        .quran-audio-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 24px;
+            padding: 24px 20px;
+            border: 1px solid var(--glass-border);
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .quran-audio-card:hover {
+            border-color: var(--gold);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .quran-audio-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+
+        .quran-audio-header .title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--gold);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .quran-audio-header .reciter-select {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 4px 12px;
+            color: var(--text-primary);
+            font-size: 0.8rem;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .quran-audio-header .reciter-select option {
+            background: #1a2a1a;
+            color: #fff;
+        }
+
+        .quran-audio-body {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .surah-list {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 8px;
+        }
+
+        .surah-btn {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            padding: 10px 6px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            color: var(--text-secondary);
+            font-size: 0.75rem;
+        }
+
+        .surah-btn:hover {
+            background: rgba(212, 175, 55, 0.1);
+            border-color: var(--gold);
+            transform: translateY(-2px);
+        }
+
+        .surah-btn.active {
+            background: rgba(212, 175, 55, 0.15);
+            border-color: var(--gold);
+            color: var(--gold);
+        }
+
+        .surah-btn .number {
+            font-size: 0.6rem;
+            color: var(--text-muted);
+            display: block;
+        }
+
+        .surah-btn .name {
+            font-weight: 600;
+            font-size: 0.7rem;
+        }
+
+        .audio-controls {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            padding: 8px 0;
+            flex-wrap: wrap;
+        }
+
+        .audio-controls button {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid var(--glass-border);
+            border-radius: 50%;
+            width: 44px;
+            height: 44px;
+            cursor: pointer;
+            color: var(--text-primary);
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .audio-controls button:hover {
+            background: rgba(212, 175, 55, 0.15);
+            border-color: var(--gold);
+            transform: scale(1.05);
+        }
+
+        .audio-controls .play-btn {
+            background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+            border: none;
+            color: #fff;
+            width: 52px;
+            height: 52px;
+            font-size: 1.4rem;
+            box-shadow: 0 4px 20px rgba(212, 175, 55, 0.2);
+        }
+
+        .audio-controls .play-btn:hover {
+            transform: scale(1.08);
+            box-shadow: 0 8px 30px rgba(212, 175, 55, 0.3);
+        }
+
+        .audio-progress {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .audio-progress input[type="range"] {
+            flex: 1;
+            height: 4px;
+            -webkit-appearance: none;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            outline: none;
+        }
+
+        .audio-progress input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: var(--gold);
+            cursor: pointer;
+        }
+
+        .audio-progress .time {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            min-width: 40px;
+        }
+
+        .audio-volume {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .audio-volume input[type="range"] {
+            width: 80px;
+            height: 3px;
+            -webkit-appearance: none;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            outline: none;
+        }
+
+        .audio-volume input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--gold);
+            cursor: pointer;
+        }
+
+        .audio-volume .vol-icon {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .surah-info {
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .surah-info strong {
+            color: var(--gold);
+        }
+
+        /* ============================================
+           TASBIH CARDS
+        ============================================ */
+        .tasbih-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin: 12px 0;
+        }
+
+        .tasbih-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 18px;
+            padding: 18px 14px;
+            border: 2px solid var(--card-border);
+            text-align: center;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            color: var(--text-primary);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .tasbih-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--gold);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .tasbih-card.completed {
+            border-color: #4caf50;
+            background: rgba(76, 175, 80, 0.06);
+        }
+
+        .tasbih-card .arabic-text {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--gold);
+            font-family: 'Amiri', 'Times New Roman', serif;
+            direction: rtl;
+            margin-bottom: 2px;
+        }
+
+        .tasbih-card .roman-text {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        .tasbih-card .translation-text {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+
+        .tasbih-card .count-display {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: var(--gold);
+            margin: 4px 0;
+        }
+
+        .tasbih-card .count-display .target-text {
+            font-size: 0.9rem;
+            font-weight: 400;
+            color: var(--text-muted);
+        }
+
+        .tasbih-card .progress-circle-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 6px 0;
+        }
+
+        .tasbih-card .progress-circle {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            transition: background 0.5s ease;
+        }
+
+        .tasbih-card .progress-circle .inner {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            background: var(--card-bg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .tasbih-card .btn-tasbih {
+            background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+            color: #fff;
+            border: none;
+            padding: 6px 20px;
+            border-radius: 25px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2);
+            margin: 3px;
+        }
+
+        .tasbih-card .btn-tasbih:hover {
+            transform: scale(1.04);
+            box-shadow: 0 8px 25px rgba(212, 175, 55, 0.3);
+        }
+
+        .tasbih-card .btn-tasbih:active {
+            transform: scale(0.95);
+        }
+
+        .tasbih-card .btn-reset {
+            background: rgba(244, 67, 54, 0.08);
+            color: #f44336;
+            border: 2px solid #f44336;
+            padding: 4px 14px;
+            border-radius: 25px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 3px;
+        }
+
+        .tasbih-card .btn-reset:hover {
+            background: #f44336;
+            color: #fff;
+        }
+
+        .tasbih-card .completed-badge {
+            position: absolute;
+            top: 6px;
+            right: 6px;
+            background: #4caf50;
+            color: #fff;
+            padding: 2px 8px;
+            border-radius: 16px;
+            font-size: 0.6rem;
+            font-weight: 700;
+            display: none;
+            animation: fadeIn 0.4s ease;
+        }
+
+        .tasbih-card.completed .completed-badge {
+            display: block;
+        }
+
+        .tasbih-card .card-actions {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-top: 4px;
+        }
+
+        .btn-reset-all {
+            background: rgba(255, 255, 255, 0.06);
+            color: var(--text-primary);
+            border: 2px solid var(--card-border);
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 8px;
+        }
+
+        .btn-reset-all:hover {
+            background: rgba(255, 255, 255, 0.12);
+        }
+
+        /* ============================================
+           TOAST
+        ============================================ */
+        .toast {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(12px);
+            color: #fff;
+            padding: 10px 22px;
+            border-radius: 14px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            z-index: 9999;
+            border: 1px solid rgba(212, 175, 55, 0.1);
+            max-width: 90%;
+            text-align: center;
+            animation: slideUp 0.4s ease;
+        }
+
+        .toast.hide {
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        /* ============================================
+           RESPONSIVE
+        ============================================ */
+        @media (max-width: 768px) {
+            .surah-list {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            .tasbih-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 12px;
+            }
+            .section-title {
+                font-size: 1.4rem;
+            }
+            .quran-audio-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .audio-controls {
+                gap: 10px;
+            }
+            .audio-volume input[type="range"] {
+                width: 60px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .surah-list {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .tasbih-grid {
+                grid-template-columns: 1fr;
+                gap: 10px;
+            }
+            .section-title {
+                font-size: 1.2rem;
+            }
+            .audio-controls button {
+                width: 36px;
+                height: 36px;
+                font-size: 1rem;
+            }
+            .audio-controls .play-btn {
+                width: 44px;
+                height: 44px;
+                font-size: 1.2rem;
+            }
+            .audio-volume input[type="range"] {
+                width: 50px;
+            }
+        }
+
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+        ::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(180deg, #d4af37, #b8960f);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ============================================
+    NAVBAR
+    ============================================ -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo" onclick="location.reload()">
+                <span>🌙</span> Islamic App
+            </div>
+            <div class="nav-right">
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                    <span id="themeIcon">🌙</span>
+                    <span id="themeLabel">Dark</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============================================
+    MAIN CONTAINER
+    ============================================ -->
+    <div class="container">
+
+        <!-- ============================================
+        SECTION 1: QURAN AUDIO
+        ============================================ -->
+        <h2 class="section-title">
+            <span class="icon">🎙️</span> Quran Audio
+        </h2>
+        <p class="section-subtitle">Listen to beautiful recitations by famous Haramain Imams</p>
+
+        <div class="quran-audio-card">
+            <div class="quran-audio-header">
+                <div class="title">
+                    <span>🕌</span> Recitation
+                </div>
+                <select class="reciter-select" id="reciterSelect" onchange="changeReciter()">
+                    <option value="sudais">Sheikh Sudais</option>
+                    <option value="shuraim">Sheikh Shuraim</option>
+                    <option value="maher">Sheikh Maher Al-Muaiqly</option>
+                    <option value="ghamdi">Sheikh Al-Ghamdi</option>
+                    <option value="mishary">Mishary Rashid Alafasy</option>
+                    <option value="yasser">Yasser Al-Dosari</option>
+                    <option value="bandar">Bandar Baleela</option>
+                    <option value="abdullah">Abdullah Al-Juhany</option>
+                </select>
+            </div>
+
+            <div class="quran-audio-body">
+                <div class="surah-list" id="surahList">
+                    <!-- Generated by JS -->
+                </div>
+
+                <div class="surah-info" id="surahInfo">
+                    Currently playing: <strong id="currentSurahName">Al-Fatihah</strong>
+                </div>
+
+                <div class="audio-controls">
+                    <button onclick="prevSurah()" title="Previous Surah">⏮</button>
+                    <button class="play-btn" id="playBtn" onclick="togglePlay()">▶</button>
+                    <button onclick="nextSurah()" title="Next Surah">⏭</button>
+                    <div class="audio-volume">
+                        <span class="vol-icon">🔊</span>
+                        <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="0.8" onchange="changeVolume()" />
+                    </div>
+                </div>
+
+                <div class="audio-progress">
+                    <span class="time" id="currentTime">00:00</span>
+                    <input type="range" id="progressSlider" min="0" max="100" value="0" oninput="seekAudio()" />
+                    <span class="time" id="durationTime">00:00</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============================================
+        SECTION 2: TASBIH COUNTER
+        ============================================ -->
+        <h2 class="section-title">
+            <span class="icon">📿</span> Tasbih Counter
+        </h2>
+        <p class="section-subtitle">Count your dhikr - Target: 33 each</p>
+
+        <div class="tasbih-grid" id="tasbihGrid">
+            <!-- Generated by JS -->
+        </div>
+        <button class="btn-reset-all" onclick="resetAllTasbih()" style="display:block; margin:10px auto;">🔄 Reset All</button>
+
+    </div>
+
+    <!-- ============================================
+    JAVASCRIPT
+    ============================================ -->
+    <script>
+        // ============================================
+        // THEME TOGGLE
+        // ============================================
+        let currentTheme = localStorage.getItem('theme') || 'dark';
+
+        function setTheme(theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+            currentTheme = theme;
+            const icon = document.getElementById('themeIcon');
+            const label = document.getElementById('themeLabel');
+            if (theme === 'dark') {
+                icon.textContent = '☀️';
+                label.textContent = 'Light';
+            } else {
+                icon.textContent = '🌙';
+                label.textContent = 'Dark';
+            }
+        }
+
+        function toggleTheme() {
+            setTheme(currentTheme === 'dark' ? 'light' : 'dark');
+            showToast(currentTheme === 'dark' ? '🌙 Dark mode activated' : '☀️ Light mode activated');
+        }
+
+        setTheme(currentTheme);
+
+        // ============================================
+        // TOAST
+        // ============================================
+        function showToast(message) {
+            const existing = document.querySelector('.toast');
+            if (existing) existing.remove();
+
+            const toast = document.createElement('div');
+            toast.className = 'toast';
+            toast.textContent = message;
+            document.body.appendChild(toast);
+
+            setTimeout(() => {
+                toast.classList.add('hide');
+                setTimeout(() => toast.remove(), 400);
+            }, 3000);
+        }
+
+        // ============================================
+        // QURAN AUDIO
+        // ============================================
+        const SURAHS = [
+            { id: 1, name: 'Al-Fatihah' },
+            { id: 2, name: 'Al-Baqarah' },
+            { id: 3, name: 'Al-Imran' },
+            { id: 4, name: 'An-Nisa' },
+            { id: 5, name: 'Al-Maidah' },
+            { id: 6, name: 'Al-An\'am' },
+            { id: 7, name: 'Al-A\'raf' },
+            { id: 8, name: 'Al-Anfal' },
+            { id: 9, name: 'At-Tawbah' },
+            { id: 10, name: 'Yunus' }
+        ];
+
+        const RECITERS = {
+            sudais: 'Abdul Rahman Al-Sudais',
+            shuraim: 'Saud Al-Shuraim',
+            maher: 'Maher Al-Muaiqly',
+            ghamdi: 'Al-Ghamdi',
+            mishary: 'Mishary Rashid Alafasy',
+            yasser: 'Yasser Al-Dosari',
+            bandar: 'Bandar Baleela',
+            abdullah: 'Abdullah Al-Juhany'
+        };
+
+        let currentReciter = 'sudais';
+        let currentSurahIndex = 0;
+        let isPlaying = false;
+        let audio = null;
+
+        function getAudioUrl(reciter, surahId) {
+            return `https://cdn.islamic.network/quran/audio/128/${reciter}/${String(surahId).padStart(3, '0')}.mp3`;
+        }
+
+        function loadSurahList() {
+            const container = document.getElementById('surahList');
+            container.innerHTML = '';
+
+            SURAHS.forEach((surah, index) => {
+                const btn = document.createElement('button');
+                btn.className = `surah-btn ${index === currentSurahIndex ? 'active' : ''}`;
+                btn.innerHTML = `
+                    <span class="number">${surah.id}</span>
+                    <span class="name">${surah.name}</span>
+                `;
+                btn.onclick = () => selectSurah(index);
+                container.appendChild(btn);
+            });
+        }
+
+        function selectSurah(index) {
+            currentSurahIndex = index;
+            updateSurahUI();
+            loadAudio();
+        }
+
+        function updateSurahUI() {
+            document.querySelectorAll('.surah-btn').forEach((btn, i) => {
+                btn.classList.toggle('active', i === currentSurahIndex);
+            });
+            document.getElementById('currentSurahName').textContent = SURAHS[currentSurahIndex].name;
+        }
+
+        function loadAudio() {
+            if (audio) {
+                audio.pause();
+                audio = null;
+            }
+
+            const surah = SURAHS[currentSurahIndex];
+            const url = getAudioUrl(currentReciter, surah.id);
+
+            audio = new Audio(url);
+            audio.volume = document.getElementById('volumeSlider').value;
+
+            document.getElementById('progressSlider').value = 0;
+            document.getElementById('currentTime').textContent = '00:00';
+            document.getElementById('durationTime').textContent = '00:00';
+
+            audio.addEventListener('loadedmetadata', () => {
+                document.getElementById('durationTime').textContent = formatTime(audio.duration);
+            });
+
+            audio.addEventListener('timeupdate', () => {
+                if (audio.duration) {
+                    const progress = (audio.currentTime / audio.duration) * 100;
+                    document.getElementById('progressSlider').value = progress;
+                    document.getElementById('currentTime').textContent = formatTime(audio.currentTime);
+                }
+            });
+
+            audio.addEventListener('ended', () => {
+                nextSurah();
+            });
+
+            document.getElementById('playBtn').textContent = '▶';
+            isPlaying = false;
+            showToast(`📖 Loading ${surah.name}...`);
+        }
+
+        function togglePlay() {
+            if (!audio) {
+                loadAudio();
+                setTimeout(() => {
+                    audio.play();
+                    isPlaying = true;
+                    document.getElementById('playBtn').textContent = '⏸';
+                    showToast('▶️ Playing...');
+                }, 500);
+                return;
+            }
+
+            if (isPlaying) {
+                audio.pause();
+                document.getElementById('playBtn').textContent = '▶';
+                isPlaying = false;
+            } else {
+                audio.play();
+                document.getElementById('playBtn').textContent = '⏸';
+                isPlaying = true;
+            }
+        }
+
+        function nextSurah() {
+            currentSurahIndex = (currentSurahIndex + 1) % SURAHS.length;
+            selectSurah(currentSurahIndex);
+            setTimeout(() => {
+                if (audio) {
+                    audio.play();
+                    isPlaying = true;
+                    document.getElementById('playBtn').textContent = '⏸';
+                }
+            }, 500);
+        }
+
+        function prevSurah() {
+            currentSurahIndex = (currentSurahIndex - 1 + SURAHS.length) % SURAHS.length;
+            selectSurah(currentSurahIndex);
+            setTimeout(() => {
+                if (audio) {
+                    audio.play();
+                    isPlaying = true;
+                    document.getElementById('playBtn').textContent = '⏸';
+                }
+            }, 500);
+        }
+
+        function seekAudio() {
+            if (audio && audio.duration) {
+                const value = document.getElementById('progressSlider').value;
+                audio.currentTime = (value / 100) * audio.duration;
+            }
+        }
+
+        function changeVolume() {
+            const volume = document.getElementById('volumeSlider').value;
+            if (audio) {
+                audio.volume = volume;
+            }
+        }
+
+        function changeReciter() {
+            currentReciter = document.getElementById('reciterSelect').value;
+            loadAudio();
+            showToast(`🎙️ Reciter changed to ${RECITERS[currentReciter]}`);
+        }
+
+        function formatTime(seconds) {
+            if (!seconds || isNaN(seconds)) return '00:00';
+            const mins = Math.floor(seconds / 60);
+            const secs = Math.floor(seconds % 60);
+            return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+        }
+
+        // ============================================
+        // TASBIH
+        // ============================================
+        const TASBIH_DATA = [
+            { id: 1, arabic: "سُبْحَانَ اللَّهِ", roman: "Subhanallah", translation: "Glory be to Allah", target: 33 },
+            { id: 2, arabic: "الْحَمْدُ لِلَّهِ", roman: "Alhamdulillah", translation: "All praise is due to Allah", target: 33 },
+            { id: 3, arabic: "اللَّهُ أَكْبَرُ", roman: "Allahu Akbar", translation: "Allah is the Greatest", target: 33 },
+            { id: 4, arabic: "لَا إِلَٰهَ إِلَّا اللَّهُ", roman: "La ilaha illallah", translation: "There is no god but Allah", target: 33 },
+            { id: 5, arabic: "أَسْتَغْفِرُ اللَّهَ", roman: "Astaghfirullah", translation: "I seek forgiveness from Allah", target: 33 },
+            { id: 6, arabic: "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ", roman: "La hawla wa la quwwata illa billah", translation: "There is no power and no strength except with Allah", target: 33 }
+        ];
+
+        let tasbihState = {};
+
+        function initTasbih() {
+            const saved = localStorage.getItem('tasbihState');
+            if (saved) {
+                try { tasbihState = JSON.parse(saved); } catch (e) { tasbihState = {}; }
+            }
+            TASBIH_DATA.forEach(t => {
+                if (!tasbihState[t.id]) tasbihState[t.id] = { count: 0 };
+            });
+            saveTasbihState();
+        }
+
+        function saveTasbihState() {
+            localStorage.setItem('tasbihState', JSON.stringify(tasbihState));
+        }
+
+        function renderTasbih() {
+            const grid = document.getElementById('tasbihGrid');
+            if (!grid) return;
+            grid.innerHTML = '';
+
+            TASBIH_DATA.forEach(t => {
+                const state = tasbihState[t.id];
+                const count = state ? state.count : 0;
+                const target = t.target || 33;
+                const progress = Math.min((count / target) * 100, 100);
+                const isCompleted = count >= target;
+
+                const card = document.createElement('div');
+                card.className = `tasbih-card ${isCompleted ? 'completed' : ''}`;
+                card.id = `tasbih-${t.id}`;
+                card.innerHTML = `
+                    <div class="completed-badge">✅ Completed</div>
+                    <div class="arabic-text">${t.arabic}</div>
+                    <div class="roman-text">${t.roman}</div>
+                    <div class="translation-text">${t.translation}</div>
+                    <div class="count-display">
+                        ${count} <span class="target-text">/ ${target}</span>
+                    </div>
+                    <div class="progress-circle-container">
+                        <div class="progress-circle" id="circle-${t.id}" style="background: conic-gradient(#d4af37 ${progress}%, rgba(255,255,255,0.1) ${progress}%);">
+                            <div class="inner">${Math.round(progress)}%</div>
+                        </div>
+                    </div>
+                    <div class="card-actions">
+                        <button class="btn-tasbih" onclick="incrementTasbih(${t.id})">+1</button>
+                        <button class="btn-reset" onclick="resetTasbih(${t.id})">↺ Reset</button>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function incrementTasbih(id) {
+            const state = tasbihState[id];
+            if (!state) return;
+            const t = TASBIH_DATA.find(d => d.id === id);
+            if (!t) return;
+            state.count++;
+            saveTasbihState();
+            renderTasbih();
+            if (state.count === t.target) {
+                showToast('✅ ' + t.roman + ' completed!');
+            }
+        }
+
+        function resetTasbih(id) {
+            const state = tasbihState[id];
+            if (!state) return;
+            state.count = 0;
+            saveTasbihState();
+            renderTasbih();
+            const t = TASBIH_DATA.find(d => d.id === id);
+            showToast('↺ ' + (t ? t.roman : 'Tasbih') + ' reset');
+        }
+
+        function resetAllTasbih() {
+            if (confirm('Are you sure you want to reset all tasbih counters?')) {
+                TASBIH_DATA.forEach(t => { tasbihState[t.id].count = 0; });
+                saveTasbihState();
+                renderTasbih();
+                showToast('🔄 All tasbih reset');
+            }
+        }
+
+        // ============================================
+        // INIT
+        // ============================================
+        document.addEventListener('DOMContentLoaded', function() {
+            loadSurahList();
+            updateSurahUI();
+            initTasbih();
+            renderTasbih();
+
+            setTimeout(() => {
+                loadAudio();
+            }, 500);
+
+            console.log('🎙️ Quran Audio Loaded!');
+            console.log('📿 Tasbih Counter Loaded!');
+            console.log('🌙 Islamic App Complete!');
+        });
+    </script>
+</body>
+</html>
