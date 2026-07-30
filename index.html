@@ -1217,7 +1217,7 @@
             grid-template-columns: 1fr 1fr;
             gap: 6px;
             margin: 10px 0;
-            max-height: 360px;
+            max-height: calc(100vh - 180px);
             overflow-y: auto;
             padding-right: 4px;
         }
@@ -12916,6 +12916,10 @@
         function showHome() {
             document.getElementById('homeSection').style.display = 'block';
             document.getElementById('featuresSection').style.display = 'block';
+            
+            const navbar = document.querySelector('.navbar');
+            if(navbar) navbar.style.display = '';
+            
             hideAllScreens();
         }
 
@@ -12923,6 +12927,16 @@
             document.getElementById('homeSection').style.display = 'none';
             document.getElementById('featuresSection').style.display = 'none';
             hideAllScreens();
+            
+            const navbar = document.querySelector('.navbar');
+            if(navbar) {
+                if(page === 'quran') {
+                    navbar.style.display = 'none';
+                } else {
+                    navbar.style.display = '';
+                }
+            }
+            
             try {
                 if (page === 'login') document.getElementById('login-screen').classList.add('active');
                 else if (page === 'register') document.getElementById('register-screen').classList.add('active');
@@ -13285,9 +13299,6 @@
             if (!surah) return;
             document.getElementById('quran-list-view').classList.add('hidden');
             document.getElementById('quran-read-view').classList.remove('hidden');
-            
-            const navbar = document.querySelector('.navbar');
-            if(navbar) navbar.style.display = 'none';
             
             document.getElementById('quran-surah-title').textContent = '📖 ' + surah.number + '. ' + surah.name + ' (' +
                 surah.english + ')';
@@ -13670,9 +13681,6 @@
         function showQuranList() {
             document.getElementById('quran-list-view').classList.remove('hidden');
             document.getElementById('quran-read-view').classList.add('hidden');
-            
-            const navbar = document.querySelector('.navbar');
-            if(navbar) navbar.style.display = '';
             
             // Clean up any open dropdowns
             closeAllDropdowns();
