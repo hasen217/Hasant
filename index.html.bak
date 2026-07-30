@@ -5945,7 +5945,6 @@
         var QURAN_VERSES = {
                
             1: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ", "translation": "Praise to Allah, Lord of the worlds," },
   { "arabic": "الرَّحْمَٰنِ الرَّحِيمِ", "translation": "The Entirely Merciful, the Especially Merciful," },
   { "arabic": "مَالِكِ يَوْمِ الدِّينِ", "translation": "Sovereign of the Day of Recompense." },
@@ -5955,7 +5954,6 @@
   { "arabic": "غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ", "translation": "Not of those who have evoked [Your] anger or of those who are astray." }
 ],
             2: [
-                { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
                 { arabic: "الم", translation: "Alif, Lam, Meem." },
                 { arabic: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ",
                     translation: "This is the Book about which there is no doubt, a guidance for those conscious of Allah." },
@@ -6529,7 +6527,6 @@
                     translation: "Allah does not burden a soul beyond its capacity. It will have what it earned, and it will bear what it incurred. Our Lord, do not hold us accountable if we forget or make a mistake. Our Lord, do not lay upon us a burden like that which You laid upon those before us. Our Lord, do not burden us with that which we have no strength to bear. And pardon us, and forgive us, and have mercy on us. You are our protector, so help us against the disbelieving people." }
             ],
             3: [
-                { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
                 { arabic: "الۤمۤ", translation: "Alif, Lam, Meem." },
                 { arabic: "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ", translation: "Allah - there is no deity except Him, the Ever-Living, the Self-Sustaining." },
                 { arabic: "نَزَّلَ عَلَيْكَ الْكِتَابَ بِالْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ وَأَنزَلَ التَّوْرَاةَ وَالْإِنجِيلَ", translation: "He has sent down upon you, the Book in truth, confirming what was before it. And He revealed the Torah and the Gospel." },
@@ -6741,7 +6738,6 @@
   
 
             3: [
-{ arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
 { arabic: "الۤمۤ", translation: "Alif, Lam, Meem." },
 { arabic: "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ", translation: "Allah - there is no deity except Him, the Ever-Living, the Self-Sustaining." },
 { arabic: "نَزَّلَ عَلَيْكَ الْكِتَابَ بِالْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ وَأَنزَلَ التَّوْرَاةَ وَالْإِنجِيلَ", translation: "He has sent down upon you, the Book in truth, confirming what was before it. And He revealed the Torah and the Gospel." },
@@ -6946,7 +6942,6 @@
 
 
 4: [
-{ arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
 { arabic: "يَا أَيُّهَا النَّاسُ اتَّقُوا رَبَّكُمُ الَّذِي خَلَقَكُم مِّن نَّفْسٍ وَاحِدَةٍ وَخَلَقَ مِنْهَا زَوْجَهَا وَبَثَّ مِنْهُمَا رِجَالًا كَثِيرًا وَنِسَاءً ۚ وَاتَّقُوا اللَّهَ الَّذِي تَسَاءَلُونَ بِهِ وَالْأَرْحَامَ ۚ إِنَّ اللَّهَ كَانَ عَلَيْكُمْ رَقِيبًا", translation: "O mankind, fear your Lord, who created you from one soul and created from it its mate and dispersed from both of them many men and women. And fear Allah, through whom you ask one another, and the wombs. Indeed Allah is ever, over you, an Observer." },
 { arabic: "وَآتُوا الْيَتَامَىٰ أَمْوَالَهُمْ ۖ وَلَا تَتَبَدَّلُوا الْخَبِيثَ بِالطَّيِّبِ ۖ وَلَا تَأْكُلُوا أَمْوَالَهُمْ إِلَىٰ أَمْوَالِكُمْ ۚ إِنَّهُ كَانَ حُوبًا كَبِيرًا", translation: "And give the orphans their properties and do not exchange the bad for the good, and do not consume their properties into your own. Indeed, that is ever a great sin." },
 { arabic: "وَإِنْ خِفْتُمْ أَلَّا تُقْسِطُوا فِي الْيَتَامَىٰ فَانكِحُوا مَا طَابَ لَكُم مِّنَ النِّسَاءِ مَثْنَىٰ وَثُلَاثَ وَرُبَاعَ ۖ فَإِنْ خِفْتُمْ أَلَّا تَعْدِلُوا فَوَاحِدَةً أَوْ مَا مَلَكَتْ أَيْمَانُكُمْ ۚ ذَٰلِكَ أَدْنَىٰ أَلَّا تَعُولُوا", translation: "And if you fear that you will not be just to the orphans, then marry those that please you of women, two or three or four. But if you fear that you will not be just, then only one or those your right hand possesses. That is more suitable that you may not incline to injustice." },
@@ -7125,7 +7120,6 @@
 { arabic: "يَسْتَفْتُونَكَ قُلِ اللَّهُ يُفْتِيكُمْ فِي الْكَلَالَةِ ۚ إِنِ امْرُؤٌ هَلَكَ لَيْسَ لَهُ وَلَدٌ وَلَهُ أُخْتٌ فَلَهَا نِصْفُ مَا تَرَكَ ۚ وَهُوَ يَرِثُهَا إِن لَّمْ يَكُن لَّهَا وَلَدٌ ۚ فَإِن كَانَتَا اثْنَتَيْنِ فَلَهُمَا الثُّلُثَانِ مِمَّا تَرَكَ ۚ وَإِن كَانُوا إِخْوَةً رِّجَالًا وَنِسَاءً فَلِلذَّكَرِ مِثْلُ حَظِّ الْأُنثَيَيْنِ ۗ يُبَيِّنُ اللَّهُ لَكُمْ أَن تَضِلُّوا ۗ وَاللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ", translation: "They ask you for a ruling. Say, 'Allah gives you a ruling concerning the one who has neither parents nor children. If a man dies, leaving no child but a sister, she will have half of what he left. And he inherits from her if she has no child. But if there are two sisters, they will have two thirds of what he left. And if there are brothers and sisters, the male will have the share of two females. Allah makes clear to you, lest you go astray. And Allah is Knowing of all things.'" }
 ],
 5: [
-{ arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
 { arabic: "يَا أَيُّهَا الَّذِينَ آمَنُوا أَوْفُوا بِالْعُقُودِ ۚ أُحِلَّتْ لَكُم بَهِيمَةُ الْأَنْعَامِ إِلَّا مَا يُتْلَىٰ عَلَيْكُمْ غَيْرَ مُحِلِّي الصَّيْدِ وَأَنتُمْ حُرُمٌ ۗ إِنَّ اللَّهَ يَحْكُمُ مَا يُرِيدُ", translation: "O you who have believed, fulfill the contracts. Lawful for you are the animals of grazing livestock, except what is recited to you, not making hunting lawful while you are in the state of ihram. Indeed, Allah decrees what He wills." },
 { arabic: "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تُحِلُّوا شَعَائِرَ اللَّهِ وَلَا الشَّهْرَ الْحَرَامَ وَلَا الْهَدْيَ وَلَا الْقَلَائِدَ وَلَا آمِّينَ الْبَيْتَ الْحَرَامَ يَبْتَغُونَ فَضْلًا مِّن رَّبِّهِمْ وَرِضْوَانًا ۚ وَإِذَا حَلَلْتُمْ فَاصْطَادُوا ۚ وَلَا يَجْرِمَنَّكُمْ شَنَآنُ قَوْمٍ أَن صَدُّوكُمْ عَنِ الْمَسْجِدِ الْحَرَامِ أَن تَعْتَدُوا ۘ وَتَعَاوَنُوا عَلَى الْبِرِّ وَالتَّقْوَىٰ ۖ وَلَا تَعَاوَنُوا عَلَى الْإِثْمِ وَالْعُدْوَانِ ۚ وَاتَّقُوا اللَّهَ ۖ إِنَّ اللَّهَ شَدِيدُ الْعِقَابِ", translation: "O you who have believed, do not violate the rites of Allah or the sacred month or the sacrificial animals or the garlands or those bound for the House, seeking bounty from their Lord and His pleasure. But when you are free from ihram, then hunt. And do not let the hatred of a people who hindered you from al-Masjid al-Haram incite you to transgress. And cooperate in righteousness and piety, but do not cooperate in sin and aggression. And fear Allah; indeed, Allah is severe in punishment." },
 { arabic: "حُرِّمَتْ عَلَيْكُمُ الْمَيْتَةُ وَالدَّمُ وَلَحْمُ الْخِنزِيرِ وَمَا أُهِلَّ لِغَيْرِ اللَّهِ بِهِ وَالْمُنْخَنِقَةُ وَالْمَوْقُوذَةُ وَالْمُتَرَدِّيَةُ وَالنَّطِيحَةُ وَمَا أَكَلَ السَّبُعُ إِلَّا مَا ذَكَّيْتُمْ وَمَا ذُبِحَ عَلَى النُّصُبِ وَأَن تَسْتَقْسِمُوا بِالْأَزْلَامِ ۚ ذَٰلِكُمْ فِسْقٌ ۗ الْيَوْمَ يَئِسَ الَّذِينَ كَفَرُوا مِن دِينِكُمْ فَلَا تَخْشَوْهُمْ وَاخْشَوْنِ ۚ الْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِي وَرَضِيتُ لَكُمُ الْإِسْلَامَ دِينًا ۚ فَمَنِ اضْطُرَّ فِي مَخْمَصَةٍ غَيْرَ مُتَجَانِفٍ لِّإِثْمٍ ۙ فَإِنَّ اللَّهَ غَفُورٌ رَّحِيمٌ", translation: "Forbidden to you are dead animals, blood, the flesh of swine, and that which has been dedicated to other than Allah, and those animals killed by strangling or by a violent blow or by a head-long fall or by the goring of horns, and those from which a wild animal has eaten, except what you slaughter, and those which are sacrificed on stone altars, and that you seek decision through divining arrows. That is grave disobedience. This day those who disbelieve have despaired of your religion; so fear them not, but fear Me. This day I have perfected for you your religion and completed My favor upon you and have approved for you Islam as religion. But whoever is forced by severe hunger with no inclination to sin - then indeed, Allah is Forgiving and Merciful." },
@@ -7249,7 +7243,6 @@
 ],
 
 6: [
-{ arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
 { arabic: "الْحَمْدُ لِلَّهِ الَّذِي خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ وَجَعَلَ الظُّلُمَاتِ وَالنُّورَ ۖ ثُمَّ الَّذِينَ كَفَرُوا بِرَبِّهِمْ يَعْدِلُونَ", translation: "Praise to Allah, who created the heavens and the earth and made darkness and light. Then those who disbelieve equate with their Lord." },
 { arabic: "هُوَ الَّذِي خَلَقَكُم مِّن طِينٍ ثُمَّ قَضَىٰ أَجَلًا ۖ وَأَجَلٌ مُّسَمًّى عِندَهُ ۖ ثُمَّ أَنتُمْ تَمْتَرُونَ", translation: "It is He who created you from clay and then decreed a term and a specified time known to Him; then still you doubt." },
 { arabic: "وَهُوَ اللَّهُ فِي السَّمَاوَاتِ وَفِي الْأَرْضِ ۖ يَعْلَمُ سِرَّكُمْ وَجَهْرَكُمْ وَيَعْلَمُ مَا تَكْسِبُونَ", translation: "And He is Allah in the heavens and on the earth. He knows your secret and what you make public, and He knows what you earn." },
@@ -7419,7 +7412,6 @@
 
 
 7: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "المص", "translation": "Alif, Lam, Meem, Sad." },
   { "arabic": "كِتَابٌ أُنزِلَ إِلَيْكَ فَلَا يَكُن فِي صَدْرِكَ حَرَجٌ مِّنْهُ لِتُنذِرَ بِهِ وَذِكْرَىٰ لِلْمُؤْمِنِينَ", "translation": "A Book revealed to you, [O Muhammad] – so let there not be in your breast distress therefrom – that you may warn thereby and as a reminder to the believers." },
   { "arabic": "اتَّبِعُوا مَا أُنزِلَ إِلَيْكُم مِّن رَّبِّكُمْ وَلَا تَتَّبِعُوا مِن دُونِهِ أَوْلِيَاءَ ۗ قَلِيلًا مَّا تَذَكَّرُونَ", "translation": "Follow, [O mankind], what has been revealed to you from your Lord and do not follow other than Him any allies. Little do you remember." },
@@ -7629,7 +7621,6 @@
 ],
 
 8: [
-  { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { arabic: "إِنَّمَا الْأَنفَالُ لِلَّهِ وَالرَّسُولِ ۖ فَاتَّقُوا اللَّهَ وَأَصْلِحُوا ذَاتَ بَيْنِكُمْ ۖ وَأَطِيعُوا اللَّهَ وَرَسُولَهُ إِن كُنتُم مُّؤْمِنِينَ", translation: "They ask you about the spoils of war. Say, 'The spoils are for Allah and the Messenger.' So fear Allah and settle your differences. And obey Allah and His Messenger, if you are believers." },
   { arabic: "إِنَّمَا الْمُؤْمِنُونَ الَّذِينَ إِذَا ذُكِرَ اللَّهُ وَجِلَتْ قُلُوبُهُمْ وَإِذَا تُلِيَتْ عَلَيْهِمْ آيَاتُهُ زَادَتْهُمْ إِيمَانًا وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ", translation: "The believers are only those who, when Allah is mentioned, their hearts become fearful, and when His verses are recited to them, it increases them in faith; and upon their Lord they rely." },
   { arabic: "الَّذِينَ يُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنفِقُونَ", translation: "Those who establish prayer and from what We have provided them they spend." },
@@ -7840,7 +7831,6 @@
 ],
 
 10: [
-  { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { arabic: "الر ۚ تِلْكَ آيَاتُ الْكِتَابِ الْحَكِيمِ", translation: "Alif, Lam, Ra. These are the verses of the wise Book." },
   { arabic: "أَكَانَ لِلنَّاسِ عَجَبًا أَنْ أَوْحَيْنَا إِلَىٰ رَجُلٍ مِّنْهُمْ أَنْ أَنذِرِ النَّاسَ وَبَشِّرِ الَّذِينَ آمَنُوا أَنَّ لَهُمْ قَدَمَ صِدْقٍ عِندَ رَبِّهِمْ ۗ قَالَ الْكَافِرُونَ إِنَّ هَٰذَا لَسَاحِرٌ مُّبِينٌ", translation: "Is it a wonder to the people that We inspired to a man among them, 'Warn the people and give good tidings to those who believe that they will have a firm footing with their Lord'? The disbelievers say, 'This is indeed an obvious sorcerer.'" },
   { arabic: "إِنَّ رَبَّكُمُ اللَّهُ الَّذِي خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ فِي سِتَّةِ أَيَّامٍ ثُمَّ اسْتَوَىٰ عَلَى الْعَرْشِ ۖ يُدَبِّرُ الْأَمْرَ ۖ مَا مِن شَفِيعٍ إِلَّا مِن بَعْدِ إِذْنِهِ ۚ ذَٰلِكُمُ اللَّهُ رَبُّكُمْ فَاعْبُدُوهُ ۚ أَفَلَا تَذَكَّرُونَ", translation: "Indeed, your Lord is Allah, who created the heavens and the earth in six days and then established Himself above the Throne, arranging the matter. There is no intercessor except after His permission. That is Allah, your Lord, so worship Him. Then will you not remember?" },
@@ -7952,7 +7942,6 @@
   { arabic: "وَاتَّبِعْ مَا يُوحَىٰ إِلَيْكَ وَاصْبِرْ حَتَّىٰ يَحْكُمَ اللَّهُ ۚ وَهُوَ خَيْرُ الْحَاكِمِينَ", translation: "And follow what is revealed to you and be patient until Allah judges. And He is the best of judges." }
 ],
 11: [
-  { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { arabic: "الر ۚ كِتَابٌ أُحْكِمَتْ آيَاتُهُ ثُمَّ فُصِّلَتْ مِن لَّدُنْ حَكِيمٍ خَبِيرٍ", translation: "Alif, Lam, Ra. A Book whose verses are perfected and then presented in detail from one Wise and Acquainted." },
   { arabic: "أَلَّا تَعْبُدُوا إِلَّا اللَّهَ ۚ إِنَّنِي لَكُم مِّنْهُ نَذِيرٌ وَبَشِيرٌ", translation: "That you not worship except Allah. Indeed, I am to you from Him a warner and a bringer of good tidings." },
   { arabic: "وَأَنِ اسْتَغْفِرُوا رَبَّكُمْ ثُمَّ تُوبُوا إِلَيْهِ يُمَتِّعْكُم مَّتَاعًا حَسَنًا إِلَىٰ أَجَلٍ مُّسَمًّى وَيُؤْتِ كُلَّ ذِي فَضْلٍ فَضْلَهُ ۖ وَإِن تَوَلَّوْا فَإِنِّي أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ كَبِيرٍ", translation: "And that you seek forgiveness of your Lord and repent to Him, and He will let you enjoy a good provision for a specified term and give every doer of favor his favor. But if you turn away, indeed I fear for you the punishment of a great Day." },
@@ -8079,7 +8068,6 @@
 ],
 
 12: [
-  { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { arabic: "الر ۚ تِلْكَ آيَاتُ الْكِتَابِ الْمُبِينِ", translation: "Alif, Lam, Ra. These are the verses of the clear Book." },
   { arabic: "إِنَّا أَنزَلْنَاهُ قُرْآنًا عَرَبِيًّا لَّعَلَّكُمْ تَعْقِلُونَ", translation: "Indeed, We have sent it down as an Arabic Quran so that you may understand." },
   { arabic: "نَحْنُ نَقُصُّ عَلَيْكَ أَحْسَنَ الْقَصَصِ بِمَا أَوْحَيْنَا إِلَيْكَ هَٰذَا الْقُرْآنَ وَإِن كُنتَ مِن قَبْلِهِ لَمِنَ الْغَافِلِينَ", translation: "We relate to you the best of stories in what We have revealed to you of this Quran, although you were before it among the unaware." },
@@ -8193,7 +8181,6 @@
   { arabic: "لَقَدْ كَانَ فِي قَصَصِهِمْ عِبْرَةٌ لِّأُولِي الْأَلْبَابِ ۗ مَا كَانَ حَدِيثًا يُفْتَرَىٰ وَلَٰكِن تَصْدِيقَ الَّذِي بَيْنَ يَدَيْهِ وَتَفْصِيلَ كُلِّ شَيْءٍ وَهُدًى وَرَحْمَةً لِّقَوْمٍ يُؤْمِنُونَ", translation: "There was certainly in their stories a lesson for those of understanding. It was not a fabricated narration; but a confirmation of what was before it, a detailed explanation of all things, and guidance and mercy for a people who believe." }
 ],
 13: [
-  { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { arabic: "المر ۚ تِلْكَ آيَاتُ الْكِتَابِ ۗ وَالَّذِي أُنزِلَ إِلَيْكَ مِن رَّبِّكَ الْحَقُّ وَلَٰكِنَّ أَكْثَرَ النَّاسِ لَا يُؤْمِنُونَ", translation: "Alif, Lam, Meem, Ra. These are the verses of the Book. And that which is revealed to you from your Lord is the truth, but most of the people do not believe." },
   { arabic: "اللَّهُ الَّذِي رَفَعَ السَّمَاوَاتِ بِغَيْرِ عَمَدٍ تَرَوْنَهَا ۖ ثُمَّ اسْتَوَىٰ عَلَى الْعَرْشِ ۖ وَسَخَّرَ الشَّمْسَ وَالْقَمَرَ ۖ كُلٌّ يَجْرِي لِأَجَلٍ مُّسَمًّى ۚ يُدَبِّرُ الْأَمْرَ يُفَصِّلُ الْآيَاتِ لَعَلَّكُم بِلِقَاءِ رَبِّكُمْ تُوقِنُونَ", translation: "It is Allah who raised the heavens without pillars that you see; then He established Himself above the Throne and subjected the sun and the moon, each running for a specified term. He arranges the matter; He details the signs that you may, of the meeting with your Lord, be certain." },
   { arabic: "وَهُوَ الَّذِي مَدَّ الْأَرْضَ وَجَعَلَ فِيهَا رَوَاسِيَ وَأَنْهَارًا ۖ وَمِن كُلِّ الثَّمَرَاتِ جَعَلَ فِيهَا زَوْجَيْنِ اثْنَيْنِ ۖ يُغْشِي اللَّيْلَ النَّهَارَ ۚ إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِّقَوْمٍ يَتَفَكَّرُونَ", translation: "And it is He who spread the earth and placed therein firmly set mountains and rivers, and from every fruit He made therein two kinds. He causes the night to cover the day. Indeed in that are signs for a people who give thought." },
@@ -8239,7 +8226,6 @@
   { arabic: "وَيَقُولُ الَّذِينَ كَفَرُوا لَسْتَ مُرْسَلًا ۚ قُلْ كَفَىٰ بِاللَّهِ شَهِيدًا بَيْنِي وَبَيْنَكُمْ وَمَنْ عِندَهُ عِلْمُ الْكِتَابِ", translation: "And those who disbelieve say, 'You are not a messenger.' Say, 'Sufficient is Allah as a witness between me and you, and whoever has knowledge of the Book.'" }
 ],
 14: [
-  { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { arabic: "الر ۚ كِتَابٌ أَنزَلْنَاهُ إِلَيْكَ لِتُخْرِجَ النَّاسَ مِنَ الظُّلُمَاتِ إِلَى النُّورِ بِإِذْنِ رَبِّهِمْ إِلَىٰ صِرَاطِ الْعَزِيزِ الْحَمِيدِ", translation: "Alif, Lam, Ra. A Book which We have revealed to you so that you may bring mankind out of darknesses into light, by permission of their Lord, to the path of the Exalted in Might, the Praiseworthy." },
   { arabic: "اللَّهِ الَّذِي لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ وَوَيْلٌ لِّلْكَافِرِينَ مِنْ عَذَابٍ شَدِيدٍ", translation: "Allah, to whom belongs whatever is in the heavens and whatever is on the earth. And woe to the disbelievers from a severe punishment." },
   { arabic: "الَّذِينَ يَسْتَحِبُّونَ الْحَيَاةَ الدُّنْيَا عَلَى الْآخِرَةِ وَيَصُدُّونَ عَن سَبِيلِ اللَّهِ وَيَبْغُونَهَا عِوَجًا ۚ أُولَٰئِكَ فِي ضَلَالٍ بَعِيدٍ", translation: "Those who prefer the worldly life over the Hereafter and avert from the way of Allah and seek to make it crooked – those are in extreme error." },
@@ -8295,7 +8281,6 @@
 ],
 
 15: [
-  { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { arabic: "الر ۚ تِلْكَ آيَاتُ الْكِتَابِ وَقُرْآنٍ مُّبِينٍ", translation: "Alif, Lam, Ra. These are the verses of the Book and a clear Quran." },
   { arabic: "رُّبَمَا يَوَدُّ الَّذِينَ كَفَرُوا لَوْ كَانُوا مُسْلِمِينَ", translation: "Perhaps those who disbelieve will wish that they had been Muslims." },
   { arabic: "ذَرْهُمْ يَأْكُلُوا وَيَتَمَتَّعُوا وَيُلْهِهِمُ الْأَمَلُ ۖ فَسَوْفَ يَعْلَمُونَ", translation: "Let them eat and enjoy themselves and be diverted by hope, for they are going to know." },
@@ -8398,7 +8383,6 @@
 ],
 
 16: [
-  { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { arabic: "أَتَىٰ أَمْرُ اللَّهِ فَلَا تَسْتَعْجِلُوهُ ۚ سُبْحَانَهُ وَتَعَالَىٰ عَمَّا يُشْرِكُونَ", translation: "The command of Allah is coming, so do not be impatient for it. Exalted is He and high above what they associate with Him." },
   { arabic: "يُنَزِّلُ الْمَلَائِكَةَ بِالرُّوحِ مِنْ أَمْرِهِ عَلَىٰ مَن يَشَاءُ مِنْ عِبَادِهِ أَنْ أَنذِرُوا أَنَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاتَّقُونِ", translation: "He sends down the angels with the spirit of His command upon whom He wills of His servants, 'Warn that there is no deity except Me; so fear Me.'" },
   { arabic: "خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ بِالْحَقِّ ۚ تَعَالَىٰ عَمَّا يُشْرِكُونَ", translation: "He created the heavens and the earth in truth. High is He above what they associate with Him." },
@@ -8530,7 +8514,6 @@
 ],
 
 17: [
-  { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { arabic: "سُبْحَانَ الَّذِي أَسْرَىٰ بِعَبْدِهِ لَيْلًا مِّنَ الْمَسْجِدِ الْحَرَامِ إِلَى الْمَسْجِدِ الْأَقْصَى الَّذِي بَارَكْنَا حَوْلَهُ لِنُرِيَهُ مِنْ آيَاتِنَا ۚ إِنَّهُ هُوَ السَّمِيعُ الْبَصِيرُ", translation: "Exalted is He who took His Servant by night from al-Masjid al-Haram to al-Masjid al-Aqsa, whose surroundings We have blessed, to show him of Our signs. Indeed, He is the Hearing, the Seeing." },
   { arabic: "وَآتَيْنَا مُوسَى الْكِتَابَ وَجَعَلْنَاهُ هُدًى لِّبَنِي إِسْرَائِيلَ أَلَّا تَتَّخِذُوا مِن دُونِي وَكِيلًا", translation: "And We gave Moses the Book and made it a guidance for the Children of Israel, 'Do not take other than Me as Disposer of affairs.'" },
   { arabic: "ذُرِّيَّةَ مَنْ حَمَلْنَا مَعَ نُوحٍ ۚ إِنَّهُ كَانَ عَبْدًا شَكُورًا", translation: "O descendants of those We carried with Noah. Indeed, he was a grateful servant." },
@@ -8646,7 +8629,6 @@
 
 
 18: [
-  { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { arabic: "الْحَمْدُ لِلَّهِ الَّذِي أَنزَلَ عَلَىٰ عَبْدِهِ الْكِتَابَ وَلَمْ يَجْعَل لَّهُ عِوَجًا", translation: "Praise be to Allah who has sent down upon His Servant the Book and has not made it crooked." },
   { arabic: "قَيِّمًا لِّيُنذِرَ بَأْسًا شَدِيدًا مِّن لَّدُنْهُ وَيُبَشِّرَ الْمُؤْمِنِينَ الَّذِينَ يَعْمَلُونَ الصَّالِحَاتِ أَنَّ لَهُمْ أَجْرًا حَسَنًا", translation: "He has made it straight, to warn of severe punishment from Him and to give good tidings to the believers who do righteous deeds that they will have a good reward." },
   { arabic: "مَّاكِثِينَ فِيهِ أَبَدًا", translation: "In which they will remain forever." },
@@ -8759,7 +8741,6 @@
   { arabic: "قُلْ إِنَّمَا أَنَا بَشَرٌ مِّثْلُكُمْ يُوحَىٰ إِلَيَّ أَنَّمَا إِلَٰهُكُمْ إِلَٰهٌ وَاحِدٌ ۖ فَمَن كَانَ يَرْجُو لِقَاءَ رَبِّهِ فَلْيَعْمَلْ عَمَلًا صَالِحًا وَلَا يُشْرِكْ بِعِبَادَةِ رَبِّهِ أَحَدًا", translation: "Say, 'I am only a man like you, to whom has been revealed that your god is one God. So whoever hopes for the meeting with his Lord – let him do righteous work and not associate in the worship of his Lord anyone.'" }
 ],
 19: [
-  { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { arabic: "كهيعص", translation: "Kaf, Ha, Ya, 'Ayn, Sad." },
   { arabic: "ذِكْرُ رَحْمَتِ رَبِّكَ عَبْدَهُ زَكَرِيَّا", translation: "This is a mention of the mercy of your Lord to His servant Zechariah." },
   { arabic: "إِذْ نَادَىٰ رَبَّهُ نِدَاءً خَفِيًّا", translation: "When he called to his Lord a private call." },
@@ -8861,7 +8842,6 @@
 ],
 
 20: [
-  { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { arabic: "طه", translation: "Ta, Ha." },
   { arabic: "مَا أَنزَلْنَا عَلَيْكَ الْقُرْآنَ لِتَشْقَىٰ", translation: "We have not sent down to you the Quran that you be distressed." },
   { arabic: "إِلَّا تَذْكِرَةً لِّمَن يَخْشَىٰ", translation: "But only as a reminder for those who fear Allah." },
@@ -9000,7 +8980,6 @@
 ],
 
 21: [
-  { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { arabic: "اقْتَرَبَ لِلنَّاسِ حِسَابُهُمْ وَهُمْ فِي غَفْلَةٍ مُّعْرِضُونَ", translation: "The time of their reckoning has drawn near for the people, while they are in heedlessness turning away." },
   { arabic: "مَا يَأْتِيهِم مِّن ذِكْرٍ مِّن رَّبِّهِم مُّحْدَثٍ إِلَّا اسْتَمَعُوهُ وَهُمْ يَلْعَبُونَ", translation: "No new reminder comes to them from their Lord except that they listen to it while they are playing." },
   { arabic: "لَاهِيَةً قُلُوبُهُمْ ۗ وَأَسَرُّوا النَّجْوَى الَّذِينَ ظَلَمُوا هَلْ هَٰذَا إِلَّا بَشَرٌ مِّثْلُكُمْ ۖ أَفَتَأْتُونَ السِّحْرَ وَأَنتُمْ تُبْصِرُونَ", translation: "Their hearts are amused. And those who wronged concealed their private conversation, 'Is this but a human being like you? Would you approach magic while you are seeing?'" },
@@ -9116,7 +9095,6 @@
 ],
 
 22: [
-  { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { arabic: "يَا أَيُّهَا النَّاسُ اتَّقُوا رَبَّكُمْ ۚ إِنَّ زَلْزَلَةَ السَّاعَةِ شَيْءٌ عَظِيمٌ", translation: "O mankind, fear your Lord. Indeed, the earthquake of the Hour is a terrible thing." },
   { arabic: "يَوْمَ تَرَوْنَهَا تَذْهَلُ كُلُّ مُرْضِعَةٍ عَمَّا أَرْضَعَتْ وَتَضَعُ كُلُّ ذَاتِ حَمْلٍ حَمْلَهَا وَتَرَى النَّاسَ سُكَارَىٰ وَمَا هُم بِسُكَارَىٰ وَلَٰكِنَّ عَذَابَ اللَّهِ شَدِيدٌ", translation: "On the Day you see it, every nursing mother will forget her nursling, and every pregnant woman will abort her pregnancy, and you will see the people as intoxicated while they are not intoxicated; but the punishment of Allah is severe." },
   { arabic: "وَمِنَ النَّاسِ مَن يُجَادِلُ فِي اللَّهِ بِغَيْرِ عِلْمٍ وَيَتَّبِعُ كُلَّ شَيْطَانٍ مَّرِيدٍ", translation: "And among the people is he who disputes about Allah without knowledge and follows every rebellious devil." },
@@ -9198,7 +9176,6 @@
 ],
 
 23: [
-  { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { arabic: "قَدْ أَفْلَحَ الْمُؤْمِنُونَ", translation: "Certainly have the believers succeeded." },
   { arabic: "الَّذِينَ هُمْ فِي صَلَاتِهِمْ خَاشِعُونَ", translation: "They who are during their prayer humbly submissive." },
   { arabic: "وَالَّذِينَ هُمْ عَنِ اللَّغْوِ مُعْرِضُونَ", translation: "And they who turn away from ill speech." },
@@ -9320,7 +9297,6 @@
 ],
 
 24: [
-  { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { arabic: "سُورَةٌ أَنزَلْنَاهَا وَفَرَضْنَاهَا وَأَنزَلْنَا فِيهَا آيَاتٍ بَيِّنَاتٍ لَّعَلَّكُمْ تَذَكَّرُونَ", translation: "A Surah which We have sent down and which We have made obligatory, and We have sent down in it clear verses so that you may be reminded." },
   { arabic: "الزَّانِيَةُ وَالزَّانِي فَاجْلِدُوا كُلَّ وَاحِدٍ مِّنْهُمَا مِائَةَ جَلْدَةٍ ۖ وَلَا تَأْخُذْكُم بِهِمَا رَأْفَةٌ فِي دِينِ اللَّهِ إِن كُنتُمْ تُؤْمِنُونَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ ۖ وَلْيَشْهَدْ عَذَابَهُمَا طَائِفَةٌ مِّنَ الْمُؤْمِنِينَ", translation: "The woman and the man guilty of unlawful sexual intercourse – lash each one of them with a hundred lashes. And do not let pity for them prevent you in the religion of Allah, if you believe in Allah and the Last Day. And let a group of the believers witness their punishment." },
   { arabic: "الزَّانِي لَا يَنكِحُ إِلَّا زَانِيَةً أَوْ مُشْرِكَةً وَالزَّانِيَةُ لَا يَنكِحُهَا إِلَّا زَانٍ أَوْ مُشْرِكٌ ۚ وَحُرِّمَ ذَٰلِكَ عَلَى الْمُؤْمِنِينَ", translation: "The fornicator does not marry except a fornicatress or polytheist, and the fornicatress is not married except by a fornicator or polytheist. And that has been made unlawful to the believers." },
@@ -9388,7 +9364,6 @@
 ],
 
 25: [
-  { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { arabic: "تَبَارَكَ الَّذِي نَزَّلَ الْفُرْقَانَ عَلَىٰ عَبْدِهِ لِيَكُونَ لِلْعَالَمِينَ نَذِيرًا", translation: "Blessed is He who sent down the Criterion upon His Servant that he may be a warner to the worlds." },
   { arabic: "الَّذِي لَهُ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ وَلَمْ يَتَّخِذْ وَلَدًا وَلَمْ يَكُن لَّهُ شَرِيكٌ فِي الْمُلْكِ وَخَلَقَ كُلَّ شَيْءٍ فَقَدَّرَهُ تَقْدِيرًا", translation: "He to whom belongs the dominion of the heavens and the earth and who has not taken a son and has not had a partner in dominion and has created each thing and determined it with determination." },
   { arabic: "وَاتَّخَذُوا مِن دُونِهِ آلِهَةً لَّا يَخْلُقُونَ شَيْئًا وَهُمْ يُخْلَقُونَ وَلَا يَمْلِكُونَ لِأَنفُسِهِمْ ضَرًّا وَلَا نَفْعًا وَلَا يَمْلِكُونَ مَوْتًا وَلَا حَيَاةً وَلَا نُشُورًا", translation: "But they have taken besides Him gods which create nothing, while they are created, and possess not for themselves any harm or benefit and possess not death or life or resurrection." },
@@ -9470,7 +9445,6 @@
 
 
 26: [
-  { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { arabic: "طسم", translation: "Ta, Seen, Meem." },
   { arabic: "تِلْكَ آيَاتُ الْكِتَابِ الْمُبِينِ", translation: "These are the verses of the clear Book." },
   { arabic: "لَعَلَّكَ بَاخِعٌ نَّفْسَكَ أَلَّا يَكُونُوا مُؤْمِنِينَ", translation: "Perhaps you would kill yourself with grief because they are not believers." },
@@ -9701,7 +9675,6 @@
 ],
 
 27: [
-  { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { arabic: "طس ۚ تِلْكَ آيَاتُ الْقُرْآنِ وَكِتَابٍ مُّبِينٍ", translation: "Ta, Seen. These are the verses of the Quran and a clear Book." },
   { arabic: "هُدًى وَبُشْرَىٰ لِلْمُؤْمِنِينَ", translation: "As guidance and good tidings for the believers." },
   { arabic: "الَّذِينَ يُقِيمُونَ الصَّلَاةَ وَيُؤْتُونَ الزَّكَاةَ وَهُم بِالْآخِرَةِ هُمْ يُوقِنُونَ", translation: "Who establish prayer and give zakah, and they are certain of the Hereafter." },
@@ -9798,7 +9771,6 @@
 ],
 
 28: [
-  { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { arabic: "طسم", translation: "Ta, Seen, Meem." },
   { arabic: "تِلْكَ آيَاتُ الْكِتَابِ الْمُبِينِ", translation: "These are the verses of the clear Book." },
   { arabic: "نَتْلُو عَلَيْكَ مِن نَّبَإِ مُوسَىٰ وَفِرْعَوْنَ بِالْحَقِّ لِقَوْمٍ يُؤْمِنُونَ", translation: "We recite to you from the news of Moses and Pharaoh in truth for a people who believe." },
@@ -9889,7 +9861,6 @@
   { arabic: "وَلَا تَدْعُ مَعَ اللَّهِ إِلَٰهًا آخَرَ ۖ لَا إِلَٰهَ إِلَّا هُوَ ۚ كُلُّ شَيْءٍ هَالِكٌ إِلَّا وَجْهَهُ ۚ لَهُ الْحُكْمُ وَإِلَيْهِ تُرْجَعُونَ", translation: "And do not invoke with Allah another deity. There is no deity except Him. Everything will perish except His Face. His is the judgment, and to Him you will be returned." }
 ],
 29: [
-  { arabic: "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", translation: "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { arabic: "الم", translation: "Alif, Lam, Meem." },
   { arabic: "أَحَسِبَ النَّاسُ أَن يُتْرَكُوا أَن يَقُولُوا آمَنَّا وَهُمْ لَا يُفْتَنُونَ", translation: "Do the people think that they will be left to say, 'We believe,' and they will not be tested?" },
   { arabic: "وَلَقَدْ فَتَنَّا الَّذِينَ مِن قَبْلِهِمْ ۖ فَلَيَعْلَمَنَّ اللَّهُ الَّذِينَ صَدَقُوا وَلَيَعْلَمَنَّ الْكَاذِبِينَ", translation: "But We have certainly tested those before them, and Allah will surely make evident those who are truthful, and He will surely make evident the liars." },
@@ -9962,7 +9933,6 @@
 ],
 
 30: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "الم", "translation": "Alif, Lam, Meem." },
   { "arabic": "غُلِبَتِ الرُّومُ", "translation": "The Romans have been defeated." },
   { "arabic": "فِي أَدْنَى الْأَرْضِ وَهُم مِّن بَعْدِ غَلَبِهِمْ سَيَغْلِبُونَ", "translation": "In the nearest land. But they, after their defeat, will overcome." },
@@ -10026,7 +9996,6 @@
 ],
 
 31: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "الم", "translation": "Alif, Lam, Meem." },
   { "arabic": "تِلْكَ آيَاتُ الْكِتَابِ الْحَكِيمِ", "translation": "These are verses of the wise Book," },
   { "arabic": "هُدًى وَرَحْمَةً لِّلْمُحْسِنِينَ", "translation": "As guidance and mercy for the doers of good" },
@@ -10064,7 +10033,6 @@
 ],
 
 32: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "الم", "translation": "Alif, Lam, Meem." },
   { "arabic": "تَنزِيلُ الْكِتَابِ لَا رَيْبَ فِيهِ مِن رَّبِّ الْعَالَمِينَ", "translation": "The revelation of the Book about which there is no doubt from the Lord of the worlds." },
   { "arabic": "أَمْ يَقُولُونَ افْتَرَاهُ ۚ بَلْ هُوَ الْحَقُّ مِن رَّبِّكَ لِتُنذِرَ قَوْمًا مَّا أَتَاهُم مِّن نَّذِيرٍ مِّن قَبْلِكَ لَعَلَّهُمْ يَهْتَدُونَ", "translation": "Or do they say, 'He invented it'? Rather, it is the truth from your Lord, [O Muhammad], that you may warn a people to whom no warner has come before you [so that] perhaps they will be guided." },
@@ -10098,7 +10066,6 @@
 ],
 
 33: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "يَا أَيُّهَا النَّبِيُّ اتَّقِ اللَّهَ وَلَا تُطِعِ الْكَافِرِينَ وَالْمُنَافِقِينَ ۚ إِنَّ اللَّهَ كَانَ عَلِيمًا حَكِيمًا", "translation": "O Prophet, fear Allah and do not obey the disbelievers and the hypocrites. Indeed, Allah is ever Knowing and Wise." },
   { "arabic": "وَاتَّبِعْ مَا يُوحَىٰ إِلَيْكَ مِن رَّبِّكَ ۚ إِنَّ اللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا", "translation": "And follow that which is revealed to you from your Lord. Indeed Allah is ever, of what you do, Aware." },
   { "arabic": "وَتَوَكَّلْ عَلَى اللَّهِ ۚ وَكَفَىٰ بِاللَّهِ وَكِيلًا", "translation": "And rely upon Allah; and sufficient is Allah as Disposer of affairs." },
@@ -10175,7 +10142,6 @@
 ],
 
 34: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "الْحَمْدُ لِلَّهِ الَّذِي لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَلَهُ الْحَمْدُ فِي الْآخِرَةِ ۚ وَهُوَ الْحَكِيمُ الْخَبِيرُ", "translation": "Praise to Allah, to whom belongs whatever is in the heavens and whatever is in the earth, and to Him belongs praise in the Hereafter. And He is the Wise, the Acquainted." },
   { "arabic": "يَعْلَمُ مَا يَلِجُ فِي الْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ السَّمَاءِ وَمَا يَعْرُجُ فِيهَا ۚ وَهُوَ الرَّحِيمُ الْغَفُورُ", "translation": "He knows what penetrates into the earth and what emerges from it and what descends from the heaven and what ascends therein. And He is the Merciful, the Forgiving." },
   { "arabic": "وَقَالَ الَّذِينَ كَفَرُوا لَا تَأْتِينَا السَّاعَةُ ۖ قُلْ بَلَىٰ وَرَبِّي لَتَأْتِيَنَّكُمْ عَالِمِ الْغَيْبِ ۖ لَا يَعْزُبُ عَنْهُ مِثْقَالُ ذَرَّةٍ فِي السَّمَاوَاتِ وَلَا فِي الْأَرْضِ وَلَا أَصْغَرُ مِن ذَٰلِكَ وَلَا أَكْبَرُ إِلَّا فِي كِتَابٍ مُّبِينٍ", "translation": "But those who disbelieve say, 'The Hour will not come to us.' Say, 'Yes, by my Lord, it will surely come to you. [He is] the Knower of the unseen. Not an atom's weight in the heavens or upon the earth escapes Him, nor is there anything smaller than that or larger, but it is in a clear register.'" },
@@ -10233,7 +10199,6 @@
 ],
 
 35: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "الْحَمْدُ لِلَّهِ فَاطِرِ السَّمَاوَاتِ وَالْأَرْضِ جَاعِلِ الْمَلَائِكَةِ رُسُلًا أُولِي أَجْنِحَةٍ مَّثْنَىٰ وَثُلَاثَ وَرُبَاعَ ۚ يَزِيدُ فِي الْخَلْقِ مَا يَشَاءُ ۚ إِنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ", "translation": "Praise to Allah, Originator of the heavens and the earth, [who] made the angels messengers having wings, two or three or four. He increases in creation what He wills. Indeed, Allah is over all things competent." },
   { "arabic": "مَّا يَفْتَحِ اللَّهُ لِلنَّاسِ مِن رَّحْمَةٍ فَلَا مُمْسِكَ لَهَا ۖ وَمَا يُمْسِكْ فَلَا مُرْسِلَ لَهُ مِن بَعْدِهِ ۚ وَهُوَ الْعَزِيزُ الْحَكِيمُ", "translation": "Whatever Allah grants to people of mercy – none can withhold it; and whatever He withholds – none can release it thereafter. And He is the Exalted in Might, the Wise." },
   { "arabic": "يَا أَيُّهَا النَّاسُ اذْكُرُوا نِعْمَتَ اللَّهِ عَلَيْكُمْ ۚ هَلْ مِنْ خَالِقٍ غَيْرُ اللَّهِ يَرْزُقُكُم مِّنَ السَّمَاءِ وَالْأَرْضِ ۚ لَا إِلَٰهَ إِلَّا هُوَ ۖ فَأَنَّىٰ تُؤْفَكُونَ", "translation": "O people, remember the favor of Allah upon you. Is there any creator other than Allah who provides for you from the heaven and earth? There is no deity except Him, so how are you deluded?" },
@@ -10281,7 +10246,6 @@
   { "arabic": "وَلَوْ يُؤَاخِذُ اللَّهُ النَّاسَ بِمَا كَسَبُوا مَا تَرَكَ عَلَىٰ ظَهْرِهَا مِن دَابَّةٍ وَلَٰكِن يُؤَخِّرُهُمْ إِلَىٰ أَجَلٍ مُّسَمًّى ۖ فَإِذَا جَاءَ أَجَلُهُمْ فَإِنَّ اللَّهَ كَانَ بِعِبَادِهِ بَصِيرًا", "translation": "And if Allah were to impose punishment on the people for what they have earned, He would not leave upon the earth any creature. But He defers them for a specified term. And when their term comes, then indeed Allah is ever Seeing of His servants." }
 ],
 36: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "يس", "translation": "Ya, Seen." },
   { "arabic": "وَالْقُرْآنِ الْحَكِيمِ", "translation": "By the wise Qur'an." },
   { "arabic": "إِنَّكَ لَمِنَ الْمُرْسَلِينَ", "translation": "Indeed you, [O Muhammad], are from among the messengers," },
@@ -10368,7 +10332,6 @@
 ],
 
 37: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "وَالصَّافَّاتِ صَفًّا", "translation": "By those [angels] ranged in rows," },
   { "arabic": "فَالزَّاجِرَاتِ زَجْرًا", "translation": "And those who drive [the clouds]," },
   { "arabic": "فَالتَّالِيَاتِ ذِكْرًا", "translation": "And those who recite the message," },
@@ -10554,7 +10517,6 @@
 ],
 
 38: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "ص ۚ وَالْقُرْآنِ ذِي الذِّكْرِ", "translation": "Sad. By the Qur'an containing reminder," },
   { "arabic": "بَلِ الَّذِينَ كَفَرُوا فِي عِزَّةٍ وَشِقَاقٍ", "translation": "But those who disbelieve are in pride and dissension." },
   { "arabic": "كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّن قَرْنٍ فَنَادَوْا وَلَاتَ حِينَ مَنَاصٍ", "translation": "How many a generation have We destroyed before them, and they called out; but it was not a time for escape." },
@@ -10645,7 +10607,6 @@
   { "arabic": "وَلَتَعْلَمُنَّ نَبَأَهُ بَعْدَ حِينٍ", "translation": "And you will surely know [the truth of] its news after a time.'" }
 ],
 39: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "تَنزِيلُ الْكِتَابِ مِنَ اللَّهِ الْعَزِيزِ الْحَكِيمِ", "translation": "The revelation of the Book is from Allah, the Exalted in Might, the Wise." },
   { "arabic": "إِنَّا أَنزَلْنَا إِلَيْكَ الْكِتَابَ بِالْحَقِّ فَاعْبُدِ اللَّهَ مُخْلِصًا لَّهُ الدِّينَ", "translation": "Indeed, We have sent down to you the Book in truth. So worship Allah, [being] sincere to Him in religion." },
   { "arabic": "أَلَا لِلَّهِ الدِّينُ الْخَالِصُ ۚ وَالَّذِينَ اتَّخَذُوا مِن دُونِهِ أَوْلِيَاءَ مَا نَعْبُدُهُمْ إِلَّا لِيُقَرِّبُونَا إِلَى اللَّهِ زُلْفَىٰ ۚ إِنَّ اللَّهَ يَحْكُمُ بَيْنَهُمْ فِي مَا هُمْ فِيهِ يَخْتَلِفُونَ ۗ إِنَّ اللَّهَ لَا يَهْدِي مَنْ هُوَ كَاذِبٌ كَفَّارٌ", "translation": "Unquestionably, for Allah is the pure religion. And those who take protectors besides Him [say], 'We only worship them that they may bring us nearer to Allah in position.' Indeed, Allah will judge between them concerning that over which they differ. Indeed, Allah does not guide he who is a liar and [confirmed] disbeliever." },
@@ -10724,7 +10685,6 @@
 ],
 
 40: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "حم", "translation": "Ha, Meem." },
   { "arabic": "تَنزِيلُ الْكِتَابِ مِنَ اللَّهِ الْعَزِيزِ الْعَلِيمِ", "translation": "The revelation of the Book is from Allah, the Exalted in Might, the Knowing." },
   { "arabic": "غَافِرِ الذَّنبِ وَقَابِلِ التَّوْبِ شَدِيدِ الْعِقَابِ ذِي الطَّوْلِ ۖ لَا إِلَٰهَ إِلَّا هُوَ ۖ إِلَيْهِ الْمَصِيرُ", "translation": "The Forgiver of sin, Acceptor of repentance, Severe in punishment, Owner of abundance. There is no deity except Him; to Him is the destination." },
@@ -10814,7 +10774,6 @@
 
 
 41: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "حم", "translation": "Ha, Meem." },
   { "arabic": "تَنزِيلٌ مِّنَ الرَّحْمَٰنِ الرَّحِيمِ", "translation": "[This is] a revelation from the Most Merciful, the Most Compassionate –" },
   { "arabic": "كِتَابٌ فُصِّلَتْ آيَاتُهُ قُرْآنًا عَرَبِيًّا لِّقَوْمٍ يَعْلَمُونَ", "translation": "A Book whose verses have been detailed, an Arabic Quran for a people who know," },
@@ -10871,7 +10830,6 @@
   { "arabic": "أَلَا إِنَّهُمْ فِي مِرْيَةٍ مِّن لِّقَاءِ رَبِّهِمْ ۗ أَلَا إِنَّهُ بِكُلِّ شَيْءٍ مُّحِيطٌ", "translation": "Unquestionably, they are in doubt about the meeting with their Lord. Unquestionably He encompasses all things." }
 ],
 42: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "حم", "translation": "Ha, Meem." },
   { "arabic": "عسق", "translation": "Ayn, Seen, Qaf." },
   { "arabic": "كَذَٰلِكَ يُوحِي إِلَيْكَ وَإِلَى الَّذِينَ مِن قَبْلِكَ اللَّهُ الْعَزِيزُ الْحَكِيمُ", "translation": "Thus has He revealed to you, [O Muhammad], and to those before you – Allah, the Exalted in Might, the Wise." },
@@ -10927,7 +10885,6 @@
   { "arabic": "صِرَاطِ اللَّهِ الَّذِي لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ أَلَا إِلَى اللَّهِ تَصِيرُ الْأُمُورُ", "translation": "The path of Allah, to whom belongs whatever is in the heavens and whatever is in the earth. Unquestionably, to Allah do all matters return." }
 ],
 43: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "حم", "translation": "Ha, Meem." },
   { "arabic": "وَالْكِتَابِ الْمُبِينِ", "translation": "By the clear Book," },
   { "arabic": "إِنَّا جَعَلْنَاهُ قُرْآنًا عَرَبِيًّا لَّعَلَّكُمْ تَعْقِلُونَ", "translation": "Indeed, We have made it an Arabic Qur'an that you might understand." },
@@ -11019,7 +10976,6 @@
   { "arabic": "فَاصْفَحْ عَنْهُمْ وَقُلْ سَلَامٌ ۚ فَسَوْفَ يَعْلَمُونَ", "translation": "So turn aside from them and say, 'Peace.' But they are going to know." }
 ],
 44: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "حم", "translation": "Ha, Meem." },
   { "arabic": "وَالْكِتَابِ الْمُبِينِ", "translation": "By the clear Book," },
   { "arabic": "إِنَّا أَنزَلْنَاهُ فِي لَيْلَةٍ مُّبَارَكَةٍ ۚ إِنَّا كُنَّا مُنذِرِينَ", "translation": "Indeed, We sent it down during a blessed night. Indeed, We were to warn [mankind]." },
@@ -11081,7 +11037,6 @@
   { "arabic": "فَارْتَقِبْ إِنَّهُم مُّرْتَقِبُونَ", "translation": "So watch, [O Muhammad]; indeed, they are watching." }
 ],
 45: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "حم", "translation": "Ha, Meem." },
   { "arabic": "تَنزِيلُ الْكِتَابِ مِنَ اللَّهِ الْعَزِيزِ الْحَكِيمِ", "translation": "The revelation of the Book is from Allah, the Exalted in Might, the Wise." },
   { "arabic": "إِنَّ فِي السَّمَاوَاتِ وَالْأَرْضِ لَآيَاتٍ لِّلْمُؤْمِنِينَ", "translation": "Indeed, within the heavens and the earth are signs for the believers." },
@@ -11122,7 +11077,6 @@
 ],
 
 46: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "حم", "translation": "Ha, Meem." },
   { "arabic": "تَنزِيلُ الْكِتَابِ مِنَ اللَّهِ الْعَزِيزِ الْحَكِيمِ", "translation": "The revelation of the Book is from Allah, the Exalted in Might, the Wise." },
   { "arabic": "مَا خَلَقْنَا السَّمَاوَاتِ وَالْأَرْضَ وَمَا بَيْنَهُمَا إِلَّا بِالْحَقِّ وَأَجَلٍ مُّسَمًّى ۚ وَالَّذِينَ كَفَرُوا عَمَّا أُنذِرُوا مُعْرِضُونَ", "translation": "We did not create the heavens and the earth and what is between them except in truth and [for] a specified term. But those who disbelieve, from that of which they are warned, are turning away." },
@@ -11161,7 +11115,6 @@
 ],
 
 47: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "الَّذِينَ كَفَرُوا وَصَدُّوا عَن سَبِيلِ اللَّهِ أَضَلَّ أَعْمَالَهُمْ", "translation": "Those who disbelieve and avert [people] from the way of Allah – He will waste their deeds." },
   { "arabic": "وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَآمَنُوا بِمَا نُزِّلَ عَلَىٰ مُحَمَّدٍ وَهُوَ الْحَقُّ مِن رَّبِّهِمْ ۙ كَفَّرَ عَنْهُمْ سَيِّئَاتِهِمْ وَأَصْلَحَ بَالَهُمْ", "translation": "And those who believe and do righteous deeds and believe in what has been sent down upon Muhammad – and it is the truth from their Lord – He will remove from them their misdeeds and amend their condition." },
   { "arabic": "ذَٰلِكَ بِأَنَّ الَّذِينَ كَفَرُوا اتَّبَعُوا الْبَاطِلَ وَأَنَّ الَّذِينَ آمَنُوا اتَّبَعُوا الْحَقَّ مِن رَّبِّهِمْ ۚ كَذَٰلِكَ يَضْرِبُ اللَّهُ لِلنَّاسِ أَمْثَالَهُمْ", "translation": "That is because those who disbelieve follow falsehood, and those who believe follow the truth from their Lord. Thus does Allah present to the people their comparisons." },
@@ -11202,7 +11155,6 @@
   { "arabic": "هَا أَنتُمْ هَٰؤُلَاءِ تُدْعَوْنَ لِتُنفِقُوا فِي سَبِيلِ اللَّهِ فَمِنكُم مَّن يَبْخَلُ ۖ وَمَن يَبْخَلْ فَإِنَّمَا يَبْخَلُ عَن نَّفْسِهِ ۚ وَاللَّهُ الْغَنِيُّ وَأَنتُمُ الْفُقَرَاءُ ۚ وَإِن تَتَوَلَّوْا يَسْتَبْدِلْ قَوْمًا غَيْرَكُمْ ثُمَّ لَا يَكُونُوا أَمْثَالَكُمْ", "translation": "Here you are – those invited to spend in the cause of Allah – but among you are those who withhold [out of greed]. And whoever withholds only withholds [benefit] from himself; and Allah is the Free of need, while you are the needy. And if you turn away, He will replace you with another people; then they will not be the likes of you." }
 ],
 48: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "إِنَّا فَتَحْنَا لَكَ فَتْحًا مُّبِينًا", "translation": "Indeed, We have given you, [O Muhammad], a clear victory." },
   { "arabic": "لِّيَغْفِرَ لَكَ اللَّهُ مَا تَقَدَّمَ مِن ذَنبِكَ وَمَا تَأَخَّرَ وَيُتِمَّ نِعْمَتَهُ عَلَيْكَ وَيَهْدِيَكَ صِرَاطًا مُّسْتَقِيمًا", "translation": "That Allah may forgive for you what preceded of your sin and what will follow and complete His favor upon you and guide you to a straight path." },
   { "arabic": "وَيَنصُرَكَ اللَّهُ نَصْرًا عَزِيزًا", "translation": "And [that] Allah may aid you with a mighty victory." },
@@ -11235,7 +11187,6 @@
 ],
 
 49: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تُقَدِّمُوا بَيْنَ يَدَيِ اللَّهِ وَرَسُولِهِ ۖ وَاتَّقُوا اللَّهَ ۚ إِنَّ اللَّهَ سَمِيعٌ عَلِيمٌ", "translation": "O you who have believed, do not put [yourselves] before Allah and His Messenger, but fear Allah. Indeed, Allah is Hearing and Knowing." },
   { "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَرْفَعُوا أَصْوَاتَكُمْ فَوْقَ صَوْتِ النَّبِيِّ وَلَا تَجْهَرُوا لَهُ بِالْقَوْلِ كَجَهْرِ بَعْضِكُمْ لِبَعْضٍ أَن تَحْبَطَ أَعْمَالُكُمْ وَأَنتُمْ لَا تَشْعُرُونَ", "translation": "O you who have believed, do not raise your voices above the voice of the Prophet or be loud to him in speech like the loudness of some of you to others, lest your deeds become worthless while you perceive not." },
   { "arabic": "إِنَّ الَّذِينَ يَغُضُّونَ أَصْوَاتَهُمْ عِندَ رَسُولِ اللَّهِ أُولَٰئِكَ الَّذِينَ امْتَحَنَ اللَّهُ قُلُوبَهُمْ لِلتَّقْوَىٰ ۚ لَهُم مَّغْفِرَةٌ وَأَجْرٌ عَظِيمٌ", "translation": "Indeed, those who lower their voices before the Messenger of Allah – they are the ones whose hearts Allah has tested for righteousness. For them is forgiveness and a great reward." },
@@ -11256,7 +11207,6 @@
   { "arabic": "إِنَّ اللَّهَ يَعْلَمُ غَيْبَ السَّمَاوَاتِ وَالْأَرْضِ ۚ وَاللَّهُ بَصِيرٌ بِمَا تَعْمَلُونَ", "translation": "Indeed, Allah knows the unseen [aspect] of the heavens and the earth. And Allah is Seeing of what you do." }
 ],
 50: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "ق ۚ وَالْقُرْآنِ الْمَجِيدِ", "translation": "Qaf. By the glorious Qur'an." },
   { "arabic": "بَلْ عَجِبُوا أَن جَاءَهُم مُّنذِرٌ مِّنْهُمْ فَقَالَ الْكَافِرُونَ هَٰذَا شَيْءٌ عَجِيبٌ", "translation": "But they wonder that there has come to them a warner from among themselves, and the disbelievers say, 'This is an amazing thing.'" },
   { "arabic": "أَإِذَا مِتْنَا وَكُنَّا تُرَابًا ۖ ذَٰلِكَ رَجْعٌ بَعِيدٌ", "translation": "When we have died and have become dust, [we will return to life]? That is a distant return.'" },
@@ -11305,7 +11255,6 @@
 ],
 
 51: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "وَالذَّارِيَاتِ ذَرْوًا", "translation": "By the winnowing winds [i.e., scattering dust]." },
   { "arabic": "فَالْحَامِلَاتِ وِقْرًا", "translation": "And those [clouds] that carry a load [of water]," },
   { "arabic": "فَالْجَارِيَاتِ يُسْرًا", "translation": "And those [ships] that sail with ease," },
@@ -11368,7 +11317,6 @@
   { "arabic": "فَوَيْلٌ لِّلَّذِينَ كَفَرُوا مِن يَوْمِهِمُ الَّذِي يُوعَدُونَ", "translation": "And woe to those who have disbelieved from their Day which they are promised." }
 ],
 52: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "وَالطُّورِ", "translation": "By the Mount [of Sinai]" },
   { "arabic": "وَكِتَابٍ مَّسْطُورٍ", "translation": "And [by] a Book inscribed" },
   { "arabic": "فِي رَقٍّ مَّنشُورٍ", "translation": "In parchment spread open" },
@@ -11421,7 +11369,6 @@
 ],
 
 53: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "وَالنَّجْمِ إِذَا هَوَىٰ", "translation": "By the star when it descends," },
   { "arabic": "مَا ضَلَّ صَاحِبُكُمْ وَمَا غَوَىٰ", "translation": "Your companion [i.e., Muhammad] has not strayed, nor has he erred," },
   { "arabic": "وَمَا يَنطِقُ عَنِ الْهَوَىٰ", "translation": "Nor does he speak from [his own] inclination." },
@@ -11490,7 +11437,6 @@
 
 
 54: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "اقْتَرَبَتِ السَّاعَةُ وَانشَقَّ الْقَمَرُ", "translation": "The Hour has come near, and the moon has split." },
   { "arabic": "وَإِن يَرَوْا آيَةً يُعْرِضُوا وَيَقُولُوا سِحْرٌ مُّسْتَمِرٌّ", "translation": "And if they see a sign, they turn away and say, 'Passing magic.'" },
   { "arabic": "وَكَذَّبُوا وَاتَّبَعُوا أَهْوَاءَهُمْ ۚ وَكُلُّ أَمْرٍ مُّسْتَقِرٌّ", "translation": "And they denied and followed their inclinations. But every matter is [certainly] settled." },
@@ -11550,7 +11496,6 @@
 
 
 55: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "الرَّحْمَٰنُ", "translation": "The Most Merciful" },
   { "arabic": "عَلَّمَ الْقُرْآنَ", "translation": "Taught the Qur'an," },
   { "arabic": "خَلَقَ الْإِنسَانَ", "translation": "Created man," },
@@ -11632,7 +11577,6 @@
 ],
 
 56:[
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "إِذَا وَقَعَتِ الْوَاقِعَةُ", "translation": "When the Occurrence [i.e., the Day of Judgment] occurs," },
   { "arabic": "لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ", "translation": "There is, at its occurrence, no denial." },
   { "arabic": "خَافِضَةٌ رَّافِعَةٌ", "translation": "It will lower [some] and raise [others]." },
@@ -11731,7 +11675,6 @@
   { "arabic": "فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيمِ", "translation": "So exalt the name of your Lord, the Most Great." }
 ],
 57: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "سَبَّحَ لِلَّهِ مَا فِي السَّمَاوَاتِ وَالْأَرْضِ ۖ وَهُوَ الْعَزِيزُ الْحَكِيمُ", "translation": "Whatever is in the heavens and earth exalts Allah, and He is the Exalted in Might, the Wise." },
   { "arabic": "لَهُ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ ۖ يُحْيِي وَيُمِيتُ ۖ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ", "translation": "His is the dominion of the heavens and earth. He gives life and causes death, and He is over all things competent." },
   { "arabic": "هُوَ الْأَوَّلُ وَالْآخِرُ وَالظَّاهِرُ وَالْبَاطِنُ ۖ وَهُوَ بِكُلِّ شَيْءٍ عَلِيمٌ", "translation": "He is the First and the Last, the Ascendant [i.e., the Most High] and the Intimate [i.e., the All-Knowing], and He is, of all things, Knowing." },
@@ -11764,7 +11707,6 @@
 ],
 
 58: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "قَدْ سَمِعَ اللَّهُ قَوْلَ الَّتِي تُجَادِلُكَ فِي زَوْجِهَا وَتَشْتَكِي إِلَى اللَّهِ وَاللَّهُ يَسْمَعُ تَحَاوُرَكُمَا ۚ إِنَّ اللَّهَ سَمِيعٌ بَصِيرٌ", "translation": "Certainly has Allah heard the speech of the one who argues with you, [O Muhammad], concerning her husband and directs her complaint to Allah. And Allah hears your dialogue; indeed, Allah is Hearing and Seeing." },
   { "arabic": "الَّذِينَ يُظَاهِرُونَ مِنكُم مِّن نِّسَائِهِم مَّا هُنَّ أُمَّهَاتِهِمْ ۖ إِنْ أُمَّهَاتُهُمْ إِلَّا اللَّائِي وَلَدْنَهُمْ ۚ وَإِنَّهُمْ لَيَقُولُونَ مُنكَرًا مِّنَ الْقَوْلِ وَزُورًا ۚ وَإِنَّ اللَّهَ لَعَفُوٌّ غَفُورٌ", "translation": "Those who pronounce zihar among you [to separate] from their wives – they are not [consequently] their mothers. Their mothers are none but those who gave birth to them. And indeed, they are saying an objectionable statement and a lie. But indeed, Allah is Pardoning and Forgiving." },
   { "arabic": "وَالَّذِينَ يُظَاهِرُونَ مِن نِّسَائِهِمْ ثُمَّ يَعُودُونَ لِمَا قَالُوا فَتَحْرِيرُ رَقَبَةٍ مِّن قَبْلِ أَن يَتَمَاسَّا ۚ ذَٰلِكُمْ تُوعَظُونَ بِهِ ۚ وَاللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ", "translation": "And those who pronounce zihar from their wives and then [wish to] go back on what they said – then [there must be] the freeing of a slave before they touch one another. That is what you are admonished thereby; and Allah is Acquainted with what you do." },
@@ -11789,7 +11731,6 @@
   { "arabic": "لَّا تَجِدُ قَوْمًا يُؤْمِنُونَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ يُوَادُّونَ مَنْ حَادَّ اللَّهَ وَرَسُولَهُ وَلَوْ كَانُوا آبَاءَهُمْ أَوْ أَبْنَاءَهُمْ أَوْ إِخْوَانَهُمْ أَوْ عَشِيرَتَهُمْ ۚ أُولَٰئِكَ كَتَبَ فِي قُلُوبِهِمُ الْإِيمَانَ وَأَيَّدَهُم بِرُوحٍ مِّنْهُ ۖ وَيُدْخِلُهُمْ جَنَّاتٍ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا ۚ رَضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ ۚ أُولَٰئِكَ حِزْبُ اللَّهِ ۚ أَلَا إِنَّ حِزْبَ اللَّهِ هُمُ الْمُفْلِحُونَ", "translation": "You will not find a people who believe in Allah and the Last Day having affection for those who oppose Allah and His Messenger, even if they were their fathers or their sons or their brothers or their kindred. Those – He has decreed within their hearts faith and supported them with spirit [i.e., light] from Him. And We will admit them to gardens beneath which rivers flow, wherein they abide eternally. Allah is pleased with them, and they are pleased with Him – those are the party of Allah. Unquestionably, the party of Allah – they are the successful." }
 ],
 59: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "سَبَّحَ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۖ وَهُوَ الْعَزِيزُ الْحَكِيمُ", "translation": "Whatever is in the heavens and whatever is on the earth exalts Allah, and He is the Exalted in Might, the Wise." },
   { "arabic": "هُوَ الَّذِي أَخْرَجَ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ مِن دِيَارِهِمْ لِأَوَّلِ الْحَشْرِ ۚ مَا ظَنَنتُمْ أَن يَخْرُجُوا ۖ وَظَنُّوا أَنَّهُم مَّانِعَتُهُمْ حُصُونُهُم مِّنَ اللَّهِ فَأَتَاهُمُ اللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا ۖ وَقَذَفَ فِي قُلُوبِهِمُ الرُّعْبَ ۚ يُخْرِبُونَ بُيُوتَهُم بِأَيْدِيهِمْ وَأَيْدِي الْمُؤْمِنِينَ فَاعْتَبِرُوا يَا أُولِي الْأَبْصَارِ", "translation": "It is He who expelled those who disbelieved among the People of the Scripture from their homes at the first gathering. You did not think they would leave, and they thought that their fortresses would protect them from Allah; but Allah came upon them from where they had not expected and cast terror into their hearts; they destroyed their houses by their own hands and the hands of the believers. So take warning, O people of vision." },
   { "arabic": "وَلَوْلَا أَن كَتَبَ اللَّهُ عَلَيْهِمُ الْجَلَاءَ لَعَذَّبَهُمْ فِي الدُّنْيَا ۖ وَلَهُمْ فِي الْآخِرَةِ عَذَابُ النَّارِ", "translation": "And if not that Allah had decreed for them evacuation, He would have punished them in this world. And for them in the Hereafter is the punishment of the Fire." },
@@ -11816,7 +11757,6 @@
   { "arabic": "هُوَ اللَّهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ ۖ لَهُ الْأَسْمَاءُ الْحُسْنَىٰ ۚ يُسَبِّحُ لَهُ مَا فِي السَّمَاوَاتِ وَالْأَرْضِ ۖ وَهُوَ الْعَزِيزُ الْحَكِيمُ", "translation": "He is Allah, the Creator, the Inventor [i.e., the Originator], the Fashioner; to Him belong the best names. Whatever is in the heavens and earth exalts Him. And He is the Exalted in Might, the Wise." }
 ],
 60: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَتَّخِذُوا عَدُوِّي وَعَدُوَّكُمْ أَوْلِيَاءَ تُلْقُونَ إِلَيْهِم بِالْمَوَدَّةِ وَقَدْ كَفَرُوا بِمَا جَاءَكُم مِّنَ الْحَقِّ يُخْرِجُونَ الرَّسُولَ وَإِيَّاكُمْ ۙ أَن تُؤْمِنُوا بِاللَّهِ رَبِّكُمْ إِن كُنتُمْ خَرَجْتُمْ جِهَادًا فِي سَبِيلِي وَابْتِغَاءَ مَرْضَاتِي ۚ تُسِرُّونَ إِلَيْهِم بِالْمَوَدَّةِ وَأَنَا أَعْلَمُ بِمَا أَخْفَيْتُمْ وَمَا أَعْلَنتُمْ ۚ وَمَن يَفْعَلْهُ مِنكُمْ فَقَدْ ضَلَّ سَوَاءَ السَّبِيلِ", "translation": "O you who have believed, do not take My enemies and your enemies as allies, extending to them affection while they have disbelieved in what came to you of the truth, having driven out the Prophet and yourselves [only] because you believe in Allah, your Lord. If you have come out for jihad in My cause and seeking My approval, [do not take them as allies]. You confide to them affection, but I am most knowing of what you have concealed and what you have declared. And whoever does it among you has certainly strayed from the soundness of the way." },
   { "arabic": "إِن يَثْقَفُوكُمْ يَكُونُوا لَكُمْ أَعْدَاءً وَيَبْسُطُوا إِلَيْكُمْ أَيْدِيَهُمْ وَأَلْسِنَتَهُم بِالسُّوءِ وَوَدُّوا لَوْ تَكْفُرُونَ", "translation": "If they gain dominance over you, they would be to you enemies and extend against you their hands and their tongues with evil, and they wish you would disbelieve." },
   { "arabic": "لَن تَنفَعَكُمْ أَرْحَامُكُمْ وَلَا أَوْلَادُكُمْ ۚ يَوْمَ الْقِيَامَةِ يَفْصِلُ بَيْنَكُمْ ۚ وَاللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ", "translation": "Never will your relatives or your children benefit you; on the Day of Resurrection He will judge between you. And Allah, of what you do, is Seeing." },
@@ -11832,7 +11772,6 @@
   { "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَتَوَلَّوْا قَوْمًا غَضِبَ اللَّهُ عَلَيْهِمْ قَدْ يَئِسُوا مِنَ الْآخِرَةِ كَمَا يَئِسَ الْكُفَّارُ مِنْ أَصْحَابِ الْقُبُورِ", "translation": "O you who have believed, do not make allies of a people with whom Allah has become angry. They have despaired of [reward in] the Hereafter just as the disbelievers have despaired of [resurrection of] those in the graves." }
 ],
 61: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "سَبَّحَ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۖ وَهُوَ الْعَزِيزُ الْحَكِيمُ", "translation": "Whatever is in the heavens and whatever is on the earth exalts Allah, and He is the Exalted in Might, the Wise." },
   { "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ", "translation": "O you who have believed, why do you say what you do not do?" },
   { "arabic": "كَبُرَ مَقْتًا عِندَ اللَّهِ أَن تَقُولُوا مَا لَا تَفْعَلُونَ", "translation": "Great is hatred in the sight of Allah that you say what you do not do." },
@@ -11849,7 +11788,6 @@
   { "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا كُونُوا أَنصَارَ اللَّهِ كَمَا قَالَ عِيسَى ابْنُ مَرْيَمَ لِلْحَوَارِيِّينَ مَنْ أَنصَارِي إِلَى اللَّهِ ۖ قَالَ الْحَوَارِيُّونَ نَحْنُ أَنصَارُ اللَّهِ ۖ فَآمَنَت طَّائِفَةٌ مِّن بَنِي إِسْرَائِيلَ وَكَفَرَت طَّائِفَةٌ ۖ فَأَيَّدْنَا الَّذِينَ آمَنُوا عَلَىٰ عَدُوِّهِمْ فَأَصْبَحُوا ظَاهِرِينَ", "translation": "O you who have believed, be supporters of Allah, as when Jesus, the son of Mary, said to the disciples, 'Who are my supporters for Allah?' The disciples said, 'We are supporters of Allah.' And a faction of the Children of Israel believed and a faction disbelieved. So We supported those who believed against their enemy, and they became dominant." }
 ],
 62:[
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "يُسَبِّحُ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ الْمَلِكِ الْقُدُّوسِ الْعَزِيزِ الْحَكِيمِ", "translation": "Whatever is in the heavens and whatever is on the earth exalts Allah, the Sovereign, the Pure, the Exalted in Might, the Wise." },
   { "arabic": "هُوَ الَّذِي بَعَثَ فِي الْأُمِّيِّينَ رَسُولًا مِّنْهُمْ يَتْلُو عَلَيْهِمْ آيَاتِهِ وَيُزَكِّيهِمْ وَيُعَلِّمُهُمُ الْكِتَابَ وَالْحِكْمَةَ وَإِن كَانُوا مِن قَبْلُ لَفِي ضَلَالٍ مُّبِينٍ", "translation": "It is He who has sent among the unlettered [i.e., Arabs] a Messenger from themselves reciting to them His verses and purifying them and teaching them the Book and wisdom – although they were before in clear error –" },
   { "arabic": "وَآخَرِينَ مِنْهُمْ لَمَّا يَلْحَقُوا بِهِمْ ۚ وَهُوَ الْعَزِيزُ الْحَكِيمُ", "translation": "And [to] others of them who have not yet joined them. And He is the Exalted in Might, the Wise." },
@@ -11863,7 +11801,6 @@
   { "arabic": "وَإِذَا رَأَوْا تِجَارَةً أَوْ لَهْوًا انفَضُّوا إِلَيْهَا وَتَرَكُوكَ قَائِمًا ۚ قُلْ مَا عِندَ اللَّهِ خَيْرٌ مِّنَ اللَّهْوِ وَمِنَ التِّجَارَةِ ۚ وَاللَّهُ خَيْرُ الرَّازِقِينَ", "translation": "But when they saw a transaction or a diversion, they rushed to it and left you standing. Say, 'What is with Allah is better than diversion and than a transaction, and Allah is the best of providers.'" }
 ],
 63: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "إِذَا جَاءَكَ الْمُنَافِقُونَ قَالُوا نَشْهَدُ إِنَّكَ لَرَسُولُ اللَّهِ ۗ وَاللَّهُ يَعْلَمُ إِنَّكَ لَرَسُولُهُ وَاللَّهُ يَشْهَدُ إِنَّ الْمُنَافِقِينَ لَكَاذِبُونَ", "translation": "When the hypocrites come to you, [O Muhammad], they say, 'We testify that you are the Messenger of Allah.' And Allah knows that you are His Messenger, and Allah testifies that the hypocrites are liars." },
   { "arabic": "اتَّخَذُوا أَيْمَانَهُمْ جُنَّةً فَصَدُّوا عَن سَبِيلِ اللَّهِ ۚ إِنَّهُمْ سَاءَ مَا كَانُوا يَعْمَلُونَ", "translation": "They have taken their oaths as a cover, so they averted [people] from the way of Allah. Indeed, it was evil that they were doing." },
   { "arabic": "ذَٰلِكَ بِأَنَّهُمْ آمَنُوا ثُمَّ كَفَرُوا فَطُبِعَ عَلَىٰ قُلُوبِهِمْ فَهُمْ لَا يَفْقَهُونَ", "translation": "That is because they believed, and then they disbelieved; so their hearts were sealed over, and they do not understand." },
@@ -11877,7 +11814,6 @@
   { "arabic": "وَلَن يُؤَخِّرَ اللَّهُ نَفْسًا إِذَا جَاءَ أَجَلُهَا ۚ وَاللَّهُ خَبِيرٌ بِمَا تَعْمَلُونَ", "translation": "But never will Allah delay a soul when its time has come. And Allah is Acquainted with what you do." }
 ],
 64: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "يُسَبِّحُ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۖ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ ۖ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ", "translation": "Whatever is in the heavens and whatever is on the earth exalts Allah. To Him belongs dominion, and to Him belongs [all] praise, and He is over all things competent." },
   { "arabic": "هُوَ الَّذِي خَلَقَكُمْ فَمِنكُمْ كَافِرٌ وَمِنكُم مُّؤْمِنٌ ۚ وَاللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ", "translation": "It is He who created you, and among you is the disbeliever, and among you is the believer. And Allah, of what you do, is Seeing." },
   { "arabic": "خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ بِالْحَقِّ وَصَوَّرَكُمْ فَأَحْسَنَ صُوَرَكُمْ ۖ وَإِلَيْهِ الْمَصِيرُ", "translation": "He created the heavens and earth in truth and formed you and perfected your forms; and to Him is the [final] destination." },
@@ -11898,7 +11834,6 @@
   { "arabic": "عَالِمُ الْغَيْبِ وَالشَّهَادَةِ الْعَزِيزُ الْحَكِيمُ", "translation": "Knower of the unseen and the witnessed, the Exalted in Might, the Wise." }
 ], 
 65: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "يَا أَيُّهَا النَّبِيُّ إِذَا طَلَّقْتُمُ النِّسَاءَ فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ وَأَحْصُوا الْعِدَّةَ ۖ وَاتَّقُوا اللَّهَ رَبَّكُمْ ۖ لَا تُخْرِجُوهُنَّ مِن بُيُوتِهِنَّ وَلَا يَخْرُجْنَ إِلَّا أَن يَأْتِينَ بِفَاحِشَةٍ مُّبَيِّنَةٍ ۚ وَتِلْكَ حُدُودُ اللَّهِ ۚ وَمَن يَتَعَدَّ حُدُودَ اللَّهِ فَقَدْ ظَلَمَ نَفْسَهُ ۚ لَا تَدْرِي لَعَلَّ اللَّهَ يُحْدِثُ بَعْدَ ذَٰلِكَ أَمْرًا", "translation": "O Prophet, when you [Muslims] divorce women, divorce them for their waiting period and keep count of the waiting period, and fear Allah, your Lord. Do not turn them out of their [husbands'] houses, nor should they leave [themselves], unless they commit a clear immorality. And those are the limits of Allah. And whoever transgresses the limits of Allah has certainly wronged himself. You never know; perhaps Allah will bring about after that a [different] matter." },
   { "arabic": "فَإِذَا بَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ فَارِقُوهُنَّ بِمَعْرُوفٍ وَأَشْهِدُوا ذَوَيْ عَدْلٍ مِّنكُمْ وَأَقِيمُوا الشَّهَادَةَ لِلَّهِ ۚ ذَٰلِكُمْ يُوعَظُ بِهِ مَن كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ ۚ وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُ مَخْرَجًا", "translation": "And when they have reached their term, then either keep them in an acceptable manner or part from them in an acceptable manner. And bring to witness two just men from among you and establish the testimony for [the acceptance of] Allah. That is instructed to whoever should believe in Allah and the Last Day. And whoever fears Allah – He will make for him a way out." },
   { "arabic": "وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ ۚ إِنَّ اللَّهَ بَالِغُ أَمْرِهِ ۚ قَدْ جَعَلَ اللَّهُ لِكُلِّ شَيْءٍ قَدْرًا", "translation": "And He will provide for him from where he does not expect. And whoever relies upon Allah – then He is sufficient for him. Indeed, Allah will accomplish His purpose. Allah has already set for everything a [decreed] extent." },
@@ -11913,7 +11848,6 @@
   { "arabic": "اللَّهُ الَّذِي خَلَقَ سَبْعَ سَمَاوَاتٍ وَمِنَ الْأَرْضِ مِثْلَهُنَّ ۖ يَتَنَزَّلُ الْأَمْرُ بَيْنَهُنَّ لِتَعْلَمُوا أَنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ وَأَنَّ اللَّهَ قَدْ أَحَاطَ بِكُلِّ شَيْءٍ عِلْمًا", "translation": "It is Allah who created seven heavens and of the earth, the like of them. His command descends among them so that you may know that Allah is over all things competent and that Allah has encompassed all things in knowledge." }
 ],
 66: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ ۖ تَبْتَغِي مَرْضَاتَ أَزْوَاجِكَ ۚ وَاللَّهُ غَفُورٌ رَّحِيمٌ", "translation": "O Prophet, why do you prohibit [yourself from] what Allah has made lawful for you, seeking the approval of your wives? And Allah is Forgiving and Merciful." },
   { "arabic": "قَدْ فَرَضَ اللَّهُ لَكُمْ تَحِلَّةَ أَيْمَانِكُمْ ۚ وَاللَّهُ مَوْلَاكُمْ ۖ وَهُوَ الْعَلِيمُ الْحَكِيمُ", "translation": "Allah has already ordained for you [Muslims] the dissolution of your oaths. And Allah is your Protector, and He is the Knowing, the Wise." },
   { "arabic": "وَإِذْ أَسَرَّ النَّبِيُّ إِلَىٰ بَعْضِ أَزْوَاجِهِ حَدِيثًا فَلَمَّا نَبَّأَتْ بِهِ وَأَظْهَرَهُ اللَّهُ عَلَيْهِ عَرَّفَ بَعْضَهُ وَأَعْرَضَ عَن بَعْضٍ ۖ فَلَمَّا نَبَّأَهَا بِهِ قَالَتْ مَنْ أَنبَأَكَ هَٰذَا ۖ قَالَ نَبَّأَنِيَ الْعَلِيمُ الْخَبِيرُ", "translation": "And [remember] when the Prophet confided to one of his wives a statement; and when she informed [another] of it and Allah showed it to him, he made known part of it and ignored a part. And when he informed her of it, she said, 'Who told you this?' He said, 'I was told by the Knowing, the Acquainted.'" },
@@ -11928,7 +11862,6 @@
   { "arabic": "وَمَرْيَمَ ابْنَتَ عِمْرَانَ الَّتِي أَحْصَنَتْ فَرْجَهَا فَنَفَخْنَا فِيهِ مِن رُّوحِنَا وَصَدَّقَتْ بِكَلِمَاتِ رَبِّهَا وَكُتُبِهِ وَكَانَتْ مِنَ الْقَانِتِينَ", "translation": "And [the example of] Mary, the daughter of 'Imran, who guarded her chastity, so We blew into [her garment] through Our angel [i.e., Gabriel], and she believed in the words of her Lord and His scriptures and was of the devoutly obedient." }
 ],
 67: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ", "translation": "Blessed is He in whose hand is the dominion, and He is over all things competent –" },
   { "arabic": "الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا ۚ وَهُوَ الْعَزِيزُ الْغَفُورُ", "translation": "[He] who created death and life to test you [as to] which of you is best in deed – and He is the Exalted in Might, the Forgiving –" },
   { "arabic": "الَّذِي خَلَقَ سَبْعَ سَمَاوَاتٍ طِبَاقًا ۖ مَّا تَرَىٰ فِي خَلْقِ الرَّحْمَٰنِ مِن تَفَاوُتٍ ۖ فَارْجِعِ الْبَصَرَ هَلْ تَرَىٰ مِن فُطُورٍ", "translation": "[He] who created seven heavens in layers. You do not see in the creation of the Most Merciful any inconsistency. So return [your] vision [to the sky]; do you see any breaks?" },
@@ -11961,7 +11894,6 @@
   { "arabic": "قُلْ أَرَأَيْتُمْ إِنْ أَصْبَحَ مَاؤُكُمْ غَوْرًا فَمَن يَأْتِيكُم بِمَاءٍ مَّعِينٍ", "translation": "Say, 'Have you considered: if your water was to become sunken [into the earth], then who could bring you flowing water?'" }
 ],
 68: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "ن ۚ وَالْقَلَمِ وَمَا يَسْطُرُونَ", "translation": "Noon. By the pen and what they inscribe," },
   { "arabic": "مَا أَنتَ بِنِعْمَةِ رَبِّكَ بِمَجْنُونٍ", "translation": "You are not, [O Muhammad], by the favor of your Lord, a madman." },
   { "arabic": "وَإِنَّ لَكَ لَأَجْرًا غَيْرَ مَمْنُونٍ", "translation": "And indeed, for you is a reward uninterrupted." },
@@ -12017,7 +11949,6 @@
 ],
 
 69: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "الْحَاقَّةُ", "translation": "The Inevitable Reality –" },
   { "arabic": "مَا الْحَاقَّةُ", "translation": "What is the Inevitable Reality?" },
   { "arabic": "وَمَا أَدْرَاكَ مَا الْحَاقَّةُ", "translation": "And what can make you know what is the Inevitable Reality?" },
@@ -12072,7 +12003,6 @@
   { "arabic": "فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيمِ", "translation": "So exalt the name of your Lord, the Most Great." }
 ],
 70: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "سَأَلَ سَائِلٌ بِعَذَابٍ وَاقِعٍ", "translation": "A supplicant asked for a punishment bound to happen –" },
   { "arabic": "لِّلْكَافِرِينَ لَيْسَ لَهُ دَافِعٌ", "translation": "For the disbelievers; of it there is no preventer." },
   { "arabic": "مِّنَ اللَّهِ ذِي الْمَعَارِجِ", "translation": "From Allah, Owner of the ways of ascent." },
@@ -12120,7 +12050,6 @@
 ],
 
 71: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "إِنَّا أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِ أَنْ أَنذِرْ قَوْمَكَ مِن قَبْلِ أَن يَأْتِيَهُمْ عَذَابٌ أَلِيمٌ", "translation": "Indeed, We sent Noah to his people, [saying], 'Warn your people before there comes to them a painful punishment.'" },
   { "arabic": "قَالَ يَا قَوْمِ إِنِّي لَكُمْ نَذِيرٌ مُّبِينٌ", "translation": "He said, 'O my people, indeed I am to you a clear warner,'" },
   { "arabic": "أَنِ اعْبُدُوا اللَّهَ وَاتَّقُوهُ وَأَطِيعُونِ", "translation": "[Saying], 'Worship Allah, fear Him, and obey me.'" },
@@ -12151,7 +12080,6 @@
   { "arabic": "رَّبِّ اغْفِرْ لِي وَلِوَالِدَيَّ وَلِمَن دَخَلَ بَيْتِيَ مُؤْمِنًا وَلِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ ۖ وَلَا تَزِدِ الظَّالِمِينَ إِلَّا تَبَارًا", "translation": "My Lord, forgive me and my parents and whoever enters my house a believer and the believing men and believing women. And do not increase the wrongdoers except in destruction.'" }
 ],
 72: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "قُلْ أُوحِيَ إِلَيَّ أَنَّهُ اسْتَمَعَ نَفَرٌ مِّنَ الْجِنِّ فَقَالُوا إِنَّا سَمِعْنَا قُرْآنًا عَجَبًا", "translation": "Say, [O Muhammad], 'It has been revealed to me that a group of the jinn listened and said, Indeed, we have heard an amazing Qur'an.'" },
   { "arabic": "يَهْدِي إِلَى الرُّشْدِ فَآمَنَّا بِهِ ۖ وَلَن نُّشْرِكَ بِرَبِّنَا أَحَدًا", "translation": "It guides to the right course, and we have believed in it. And we will never associate with our Lord anyone.'" },
   { "arabic": "وَأَنَّهُ تَعَالَىٰ جَدُّ رَبِّنَا مَا اتَّخَذَ صَاحِبَةً وَلَا وَلَدًا", "translation": "And [we believe] that our Lord, exalted is His majesty, has not taken a wife or a son," },
@@ -12182,7 +12110,6 @@
   { "arabic": "لِّيَعْلَمَ أَن قَدْ أَبْلَغُوا رِسَالَاتِ رَبِّهِمْ وَأَحَاطَ بِمَا لَدَيْهِمْ وَأَحْصَىٰ كُلَّ شَيْءٍ عَدَدًا", "translation": "That He may know that they have conveyed the messages of their Lord; and He encompasses what is with them and has enumerated all things in number." }
 ],
 73: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "يَا أَيُّهَا الْمُزَّمِّلُ", "translation": "O you who wraps himself [in clothing]," },
   { "arabic": "قُمِ اللَّيْلَ إِلَّا قَلِيلًا", "translation": "Arise [to pray] the night, except a little –" },
   { "arabic": "نِّصْفَهُ أَوِ انقُصْ مِنْهُ قَلِيلًا", "translation": "Half of it – or subtract from it a little" },
@@ -12205,7 +12132,6 @@
   { "arabic": "۞ إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِن ثُلُثَيِ اللَّيْلِ وَنِصْفَهُ وَثُلُثَهُ وَطَائِفَةٌ مِّنَ الَّذِينَ مَعَكَ ۚ وَاللَّهُ يُقَدِّرُ اللَّيْلَ وَالنَّهَارَ ۚ عَلِمَ أَن لَّن تُحْصُوهُ فَتَابَ عَلَيْكُمْ ۖ فَاقْرَءُوا مَا تَيَسَّرَ مِنَ الْقُرْآنِ ۚ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرْضَىٰ ۙ وَآخَرُونَ يَضْرِبُونَ فِي الْأَرْضِ يَبْتَغُونَ مِن فَضْلِ اللَّهِ ۙ وَآخَرُونَ يُقَاتِلُونَ فِي سَبِيلِ اللَّهِ ۖ فَاقْرَءُوا مَا تَيَسَّرَ مِنْهُ ۚ وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَأَقْرِضُوا اللَّهَ قَرْضًا حَسَنًا ۚ وَمَا تُقَدِّمُوا لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ اللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا ۚ وَاسْتَغْفِرُوا اللَّهَ ۖ إِنَّ اللَّهَ غَفُورٌ رَّحِيمٌ", "translation": "Indeed, your Lord knows, [O Muhammad], that you stand [in prayer] almost two thirds of the night or half of it or a third of it, and [so do] a party of those with you. And Allah determines the night and the day. He has known that you [Muslims] will not be able to do it, so He has turned to you in forgiveness, so recite what is easy [for you] of the Qur'an. He has known that there will be among you those who are ill and others traveling throughout the land seeking [something] of the bounty of Allah and others fighting in the cause of Allah. So recite what is easy from it and establish prayer and give zakah and loan Allah a goodly loan. And whatever good you put forward for yourselves – you will find it with Allah as better and greater in reward. And seek forgiveness of Allah. Indeed, Allah is Forgiving and Merciful." }
 ],
 74: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "يَا أَيُّهَا الْمُدَّثِّرُ", "translation": "O you who covers himself [with a garment]," },
   { "arabic": "قُمْ فَأَنذِرْ", "translation": "Arise and warn," },
   { "arabic": "وَرَبَّكَ فَكَبِّرْ", "translation": "And your Lord glorify," },
@@ -12265,7 +12191,6 @@
 ],
 
 75: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "لَا أُقْسِمُ بِيَوْمِ الْقِيَامَةِ", "translation": "I swear by the Day of Resurrection" },
   { "arabic": "وَلَا أُقْسِمُ بِالنَّفْسِ اللَّوَّامَةِ", "translation": "And I swear by the reproaching soul [to the certainty of resurrection]." },
   { "arabic": "أَيَحْسَبُ الْإِنسَانُ أَلَّن نَّجْمَعَ عِظَامَهُ", "translation": "Does man think that We will not assemble his bones?" },
@@ -12309,7 +12234,6 @@
 ],
 
 76: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "هَلْ أَتَىٰ عَلَى الْإِنسَانِ حِينٌ مِّنَ الدَّهْرِ لَمْ يَكُن شَيْئًا مَّذْكُورًا", "translation": "Has there [not] come upon man a period of time when he was not a thing [even] mentioned?" },
   { "arabic": "إِنَّا خَلَقْنَا الْإِنسَانَ مِن نُّطْفَةٍ أَمْشَاجٍ نَّبْتَلِيهِ فَجَعَلْنَاهُ سَمِيعًا بَصِيرًا", "translation": "Indeed, We created man from a sperm-drop mixture that We may try him; and We made him hearing and seeing." },
   { "arabic": "إِنَّا هَدَيْنَاهُ السَّبِيلَ إِمَّا شَاكِرًا وَإِمَّا كَفُورًا", "translation": "Indeed, We guided him to the way, be he grateful or be he ungrateful." },
@@ -12344,7 +12268,6 @@
 ],
 
 77: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "وَالْمُرْسَلَاتِ عُرْفًا", "translation": "By those [winds] sent forth in succession" },
   { "arabic": "فَالْعَاصِفَاتِ عَصْفًا", "translation": "And [by] the winds that blow violently" },
   { "arabic": "وَالنَّاشِرَاتِ نَشْرًا", "translation": "And [by] the winds that spread [clouds]" },
@@ -12397,7 +12320,6 @@
   { "arabic": "فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ", "translation": "Then in what statement after it [i.e., the Qur'an] will they believe?" }
 ],
 78: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "عَمَّ يَتَسَاءَلُونَ", "translation": "About what are they asking one another?" },
   { "arabic": "عَنِ النَّبَإِ الْعَظِيمِ", "translation": "About the great news –" },
   { "arabic": "الَّذِي هُمْ فِيهِ مُخْتَلِفُونَ", "translation": "That over which they are in disagreement." },
@@ -12440,7 +12362,6 @@
   { "arabic": "إِنَّا أَنذَرْنَاكُمْ عَذَابًا قَرِيبًا يَوْمَ يَنظُرُ الْمَرْءُ مَا قَدَّمَتْ يَدَاهُ وَيَقُولُ الْكَافِرُ يَا لَيْتَنِي كُنتُ تُرَابًا", "translation": "Indeed, We have warned you of a near punishment on the Day when a man will observe what his hands have put forth and the disbeliever will say, 'Oh, I wish that I were dust!'" }
 ],
 79: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "وَالنَّازِعَاتِ غَرْقًا", "translation": "By those [angels] who extract with violence" },
   { "arabic": "وَالنَّاشِطَاتِ نَشْطًا", "translation": "And those who remove with ease" },
   { "arabic": "وَالسَّابِحَاتِ سَبْحًا", "translation": "And those who glide [as if] swimming" },
@@ -12490,7 +12411,6 @@
 ],
 
 80: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "عَبَسَ وَتَوَلَّىٰ", "translation": "He frowned and turned away" },
   { "arabic": "أَن جَاءَهُ الْأَعْمَىٰ", "translation": "Because there came to him the blind man." },
   { "arabic": "وَمَا يُدْرِيكَ لَعَلَّهُ يَزَّكَّىٰ", "translation": "But what would make you perceive, [O Muhammad], that perhaps he might be purified" },
@@ -12536,7 +12456,6 @@
 ], 
 
 81: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "إِذَا الشَّمْسُ كُوِّرَتْ", "translation": "When the sun is wrapped up [in darkness]" },
   { "arabic": "وَإِذَا النُّجُومُ انكَدَرَتْ", "translation": "And when the stars fall, dispersing," },
   { "arabic": "وَإِذَا الْجِبَالُ سُيِّرَتْ", "translation": "And when the mountains are removed" },
@@ -12568,7 +12487,6 @@
   { "arabic": "وَمَا تَشَاءُونَ إِلَّا أَن يَشَاءَ اللَّهُ رَبُّ الْعَالَمِينَ", "translation": "And you do not will except that Allah wills – Lord of the worlds." }
 ],
 82: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "إِذَا السَّمَاءُ انفَطَرَتْ", "translation": "When the sky breaks apart" },
   { "arabic": "وَإِذَا الْكَوَاكِبُ انتَثَرَتْ", "translation": "And when the stars fall, scattering," },
   { "arabic": "وَإِذَا الْبِحَارُ فُجِّرَتْ", "translation": "And when the seas are erupted" },
@@ -12590,7 +12508,6 @@
   { "arabic": "يَوْمَ لَا تَمْلِكُ نَفْسٌ لِّنَفْسٍ شَيْئًا ۖ وَالْأَمْرُ يَوْمَئِذٍ لِّلَّهِ", "translation": "It is the Day when a soul will not possess for another soul [power to do] a thing; and the command, that Day, is [entirely] with Allah." }
 ],
 83: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "وَيْلٌ لِّلْمُطَفِّفِينَ", "translation": "Woe to those who give less [than due]," },
   { "arabic": "الَّذِينَ إِذَا اكْتَالُوا عَلَى النَّاسِ يَسْتَوْفُونَ", "translation": "Who, when they take a measure from people, take in full." },
   { "arabic": "وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ", "translation": "But when they give by measure or weight to them, they cause loss." },
@@ -12629,7 +12546,6 @@
   { "arabic": "هَلْ ثُوِّبَ الْكُفَّارُ مَا كَانُوا يَفْعَلُونَ", "translation": "Have the disbelievers [not] been rewarded [this Day] for what they used to do?" }
 ],
 84: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "إِذَا السَّمَاءُ انشَقَّتْ", "translation": "When the sky has split [open]" },
   { "arabic": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ", "translation": "And has listened to its Lord and was obligated [to do so]" },
   { "arabic": "وَإِذَا الْأَرْضُ مُدَّتْ", "translation": "And when the earth has been extended" },
@@ -12657,7 +12573,6 @@
   { "arabic": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ", "translation": "Except those who believe and do righteous deeds; for them is a reward uninterrupted." }
 ],
 85: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "وَالسَّمَاءِ ذَاتِ الْبُرُوجِ", "translation": "By the sky containing great stars [i.e., constellations]" },
   { "arabic": "وَالْيَوْمِ الْمَوْعُودِ", "translation": "And [by] the Promised Day" },
   { "arabic": "وَشَاهِدٍ وَمَشْهُودٍ", "translation": "And [by] the witness and what is witnessed," },
@@ -12682,7 +12597,6 @@
   { "arabic": "فِي لَوْحٍ مَّحْفُوظٍ", "translation": "In a Preserved Tablet." }
 ],
 86: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "وَالسَّمَاءِ وَالطَّارِقِ", "translation": "By the sky and the night comer –" },
   { "arabic": "وَمَا أَدْرَاكَ مَا الطَّارِقُ", "translation": "And what can make you know what is the night comer?" },
   { "arabic": "النَّجْمُ الثَّاقِبُ", "translation": "It is the piercing star –" },
@@ -12702,7 +12616,6 @@
   { "arabic": "فَمَهِّلِ الْكَافِرِينَ أَمْهِلْهُمْ رُوَيْدًا", "translation": "So give the disbelievers time; let them be a little." }
 ],
  87: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "سَبِّحِ اسْمَ رَبِّكَ الْأَعْلَى", "translation": "Exalt the name of your Lord, the Most High," },
   { "arabic": "الَّذِي خَلَقَ فَسَوَّىٰ", "translation": "Who created and proportioned" },
   { "arabic": "وَالَّذِي قَدَّرَ فَهَدَىٰ", "translation": "And who destined and [then] guided" },
@@ -12725,7 +12638,6 @@
 ],
 
 88: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "هَلْ أَتَاكَ حَدِيثُ الْغَاشِيَةِ", "translation": "Has there reached you the report of the Overwhelming [event]?" },
   { "arabic": "وُجُوهٌ يَوْمَئِذٍ خَاشِعَةٌ", "translation": "Some faces, that Day, will be humbled," },
   { "arabic": "عَامِلَةٌ نَّاصِبَةٌ", "translation": "Working [hard] and exhausted." },
@@ -12754,7 +12666,6 @@
   { "arabic": "ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُمْ", "translation": "Then indeed, upon Us is their account." }
 ],
 89: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "وَالْفَجْرِ", "translation": "By the dawn" },
   { "arabic": "وَلَيَالٍ عَشْرٍ", "translation": "And [by] ten nights" },
   { "arabic": "وَالشَّفْعِ وَالْوَتْرِ", "translation": "And [by] the even and the odd" },
@@ -12787,7 +12698,6 @@
   { "arabic": "وَادْخُلِي جَنَّتِي", "translation": "And enter My Paradise.'" }
 ],
 90: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "لَا أُقْسِمُ بِهَٰذَا الْبَلَدِ", "translation": "I swear by this city [i.e., Makkah] –" },
   { "arabic": "وَأَنتَ حِلٌّۢ بِهَٰذَا الْبَلَدِ", "translation": "And you, [O Muhammad], are free of restriction in this city –" },
   { "arabic": "وَوَالِدٍۢ وَمَا وَلَدَ", "translation": "And [by] the father and that which was born [of him]," },
@@ -12810,7 +12720,6 @@
   { "arabic": "عَلَيْهِمْ نَارٌۭ مُّؤْصَدَةٌۢ", "translation": "Over them will be fire closed in [i.e., Hell]." }
 ],
 91: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "وَالشَّمْسِ وَضُحَاهَا", "translation": "By the sun and its brightness" },
   { "arabic": "وَالْقَمَرِ إِذَا تَلَاهَا", "translation": "And [by] the moon when it follows it" },
   { "arabic": "وَالنَّهَارِ إِذَا جَلَّاهَا", "translation": "And [by] the day when it displays it" },
@@ -12828,7 +12737,6 @@
   { "arabic": "وَلَا يَخَافُ عُقْبَاهَا", "translation": "And He does not fear the consequence thereof." }
 ],
 92: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "وَاللَّيْلِ إِذَا يَغْشَىٰ", "translation": "By the night when it covers" },
   { "arabic": "وَالنَّهَارِ إِذَا تَجَلَّىٰ", "translation": "And [by] the day when it appears" },
   { "arabic": "وَمَا خَلَقَ الذَّكَرَ وَالْأُنثَىٰ", "translation": "And [by] He who created the male and female," },
@@ -12852,7 +12760,6 @@
   { "arabic": "وَلَسَوْفَ يَرْضَىٰ", "translation": "And he is going to be satisfied." }
 ],
 93: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "وَالضُّحَىٰ", "translation": "By the morning brightness" },
   { "arabic": "وَاللَّيْلِ إِذَا سَجَىٰ", "translation": "And [by] the night when it covers with darkness," },
   { "arabic": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ", "translation": "Your Lord has not taken leave of you, [O Muhammad], nor has He detested [you]." },
@@ -12866,7 +12773,6 @@
   { "arabic": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ", "translation": "And as for the favor of your Lord, report [it]." }
 ],
 94: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ", "translation": "Did We not expand for you, [O Muhammad], your breast?" },
   { "arabic": "وَوَضَعْنَا عَنكَ وِزْرَكَ", "translation": "And We removed from you your burden" },
   { "arabic": "الَّذِي أَنقَضَ ظَهْرَكَ", "translation": "Which had weighed upon your back" },
@@ -12877,7 +12783,6 @@
   { "arabic": "وَإِلَىٰ رَبِّكَ فَارْغَب", "translation": "And to your Lord direct [your] longing." }
 ],
 95: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "وَالتِّينِ وَالزَّيْتُونِ", "translation": "By the fig and the olive" },
   { "arabic": "وَطُورِ سِينِينَ", "translation": "And [by] Mount Sinai" },
   { "arabic": "وَهَٰذَا الْبَلَدِ الْأَمِينِ", "translation": "And [by] this secure city [i.e., Makkah]," },
@@ -12889,7 +12794,6 @@
 ],
 
 96: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ", "translation": "Read in the name of your Lord who created –" },
   { "arabic": "خَلَقَ الْإِنسَانَ مِنْ عَلَقٍ", "translation": "Created man from a clinging substance." },
   { "arabic": "اقْرَأْ وَرَبُّكَ الْأَكْرَمُ", "translation": "Read, and your Lord is the most Generous –" },
@@ -12912,7 +12816,6 @@
 ],
 
 97: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "إِنَّا أَنزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ", "translation": "Indeed, We sent it [i.e., the Qur'an] down during the Night of Decree." },
   { "arabic": "وَمَا أَدْرَاكَ مَا لَيْلَةُ الْقَدْرِ", "translation": "And what can make you know what is the Night of Decree?" },
   { "arabic": "لَيْلَةُ الْقَدْرِ خَيْرٌ مِّنْ أَلْفِ شَهْرٍ", "translation": "The Night of Decree is better than a thousand months." },
@@ -12920,7 +12823,6 @@
   { "arabic": "سَلَامٌ هِيَ حَتَّىٰ مَطْلَعِ الْفَجْرِ", "translation": "Peace it is until the emergence of dawn." }
 ],
 98: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "لَمْ يَكُنِ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ الْبَيِّنَةُ", "translation": "Those who disbelieved among the People of the Scripture and the polytheists were not to be parted [from misbelief] until there came to them clear evidence –" },
   { "arabic": "رَسُولٌ مِّنَ اللَّهِ يَتْلُو صُحُفًا مُّطَهَّرَةً", "translation": "A Messenger from Allah, reciting purified scriptures" },
   { "arabic": "فِيهَا كُتُبٌ قَيِّمَةٌ", "translation": "Within which are correct writings [i.e., laws and rulings]." },
@@ -12932,7 +12834,6 @@
 ],
 
 99: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "إِذَا زُلْزِلَتِ الْأَرْضُ زِلْزَالَهَا", "translation": "When the earth is shaken with its [final] earthquake" },
   { "arabic": "وَأَخْرَجَتِ الْأَرْضُ أَثْقَالَهَا", "translation": "And the earth discharges its burdens" },
   { "arabic": "وَقَالَ الْإِنسَانُ مَا لَهَا", "translation": "And man says, 'What is wrong with it?'" },
@@ -12943,7 +12844,6 @@
   { "arabic": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ", "translation": "And whoever does an atom's weight of evil will see it." }
 ],
 100: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "وَالْعَادِيَاتِ ضَبْحًا", "translation": "By the racers, panting," },
   { "arabic": "فَالْمُورِيَاتِ قَدْحًا", "translation": "And the strikers of fire [with their hooves]," },
   { "arabic": "فَالْمُغِيرَاتِ صُبْحًا", "translation": "And the chargers at dawn," },
@@ -12957,7 +12857,6 @@
   { "arabic": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍ لَّخَبِيرٌ", "translation": "Indeed, their Lord with them, that Day, is [fully] Acquainted." }
 ],
 101: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "الْقَارِعَةُ", "translation": "The Striking Calamity –" },
   { "arabic": "مَا الْقَارِعَةُ", "translation": "What is the Striking Calamity?" },
   { "arabic": "وَمَا أَدْرَاكَ مَا الْقَارِعَةُ", "translation": "And what can make you know what is the Striking Calamity?" },
@@ -12971,7 +12870,6 @@
   { "arabic": "نَارٌ حَامِيَةٌ", "translation": "It is a Fire, intensely hot." }
 ],
 102: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "أَلْهَاكُمُ التَّكَاثُرُ", "translation": "Competition in [worldly] increase diverts you" },
   { "arabic": "حَتَّىٰ زُرْتُمُ الْمَقَابِرَ", "translation": "Until you visit the graves." },
   { "arabic": "كَلَّا سَوْفَ تَعْلَمُونَ", "translation": "No! You are going to know." },
@@ -12982,13 +12880,11 @@
   { "arabic": "ثُمَّ لَتُسْأَلُنَّ يَوْمَئِذٍ عَنِ النَّعِيمِ", "translation": "Then you will surely be asked that Day about [worldly] pleasure." }
 ],
 103: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "وَالْعَصْرِ", "translation": "By the time," },
   { "arabic": "إِنَّ الْإِنسَانَ لَفِي خُسْرٍ", "translation": "Indeed, mankind is in loss," },
   { "arabic": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ", "translation": "Except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience." }
 ],
 104: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ", "translation": "Woe to every scorner and mocker," },
   { "arabic": "الَّذِي جَمَعَ مَالًا وَعَدَّدَهُ", "translation": "Who collects wealth and [continuously] counts it." },
   { "arabic": "يَحْسَبُ أَنَّ مَالَهُ أَخْلَدَهُ", "translation": "He thinks that his wealth will make him immortal." },
@@ -13000,7 +12896,6 @@
   { "arabic": "فِي عَمَدٍ مُّمَدَّدَةٍ", "translation": "In extended columns." }
 ],
 105: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ", "translation": "Have you not considered how your Lord dealt with the companions of the elephant?" },
   { "arabic": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ", "translation": "Did He not make their plan into misguidance?" },
   { "arabic": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ", "translation": "And He sent against them birds in flocks," },
@@ -13008,14 +12903,12 @@
   { "arabic": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍ", "translation": "And He made them like eaten straw." }
 ],
 106: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "لِإِيلَافِ قُرَيْشٍ", "translation": "For the accustomed security of the Quraysh –" },
   { "arabic": "إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ", "translation": "Their accustomed security [in] the caravan of winter and summer –" },
   { "arabic": "فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتِ", "translation": "Let them worship the Lord of this House," },
   { "arabic": "الَّذِي أَطْعَمَهُم مِّن جُوعٍ وَآمَنَهُم مِّنْ خَوْفٍ", "translation": "Who has fed them, [saving them] from hunger and made them safe, [saving them] from fear." }
 ],
 107: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "أَرَأَيْتَ الَّذِي يُكَذِّبُ بِالدِّينِ", "translation": "Have you seen the one who denies the Recompense?" },
   { "arabic": "فَذَٰلِكَ الَّذِي يَدُعُّ الْيَتِيمَ", "translation": "For that is the one who drives away the orphan" },
   { "arabic": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ الْمِسْكِينِ", "translation": "And does not encourage the feeding of the poor." },
@@ -13025,13 +12918,11 @@
   { "arabic": "وَيَمْنَعُونَ الْمَاعُونَ", "translation": "And withhold [simple] assistance." }
 ],
 108: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ", "translation": "Indeed, We have granted you, [O Muhammad], al-Kawthar." },
   { "arabic": "فَصَلِّ لِرَبِّكَ وَانْحَرْ", "translation": "So pray to your Lord and sacrifice [to Him alone]." },
   { "arabic": "إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ", "translation": "Indeed, your enemy is the one cut off [from all good]." }
 ],
 109: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "قُلْ يَا أَيُّهَا الْكَافِرُونَ", "translation": "Say, 'O disbelievers,'" },
   { "arabic": "لَا أَعْبُدُ مَا تَعْبُدُونَ", "translation": "I do not worship what you worship." },
   { "arabic": "وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ", "translation": "Nor are you worshippers of what I worship." },
@@ -13040,13 +12931,11 @@
   { "arabic": "لَكُمْ دِينُكُمْ وَلِيَ دِينِ", "translation": "For you is your religion, and for me is my religion." }
 ],
 110: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ", "translation": "When the victory of Allah has come and the conquest," },
   { "arabic": "وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا", "translation": "And you see the people entering into the religion of Allah in multitudes," },
   { "arabic": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ ۚ إِنَّهُ كَانَ تَوَّابًا", "translation": "Then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance." }
 ],
 111: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ", "translation": "May the hands of Abu Lahab be ruined, and ruined is he." },
   { "arabic": "مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ", "translation": "His wealth will not avail him nor that which he gained." },
   { "arabic": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ", "translation": "He will burn in a Fire of [blazing] flames." },
@@ -13055,14 +12944,12 @@
 ],
 
 112: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ", "translation": "Say, 'He is Allah, [who is] One,'" },
   { "arabic": "اللَّهُ الصَّمَدُ", "translation": "Allah, the Eternal Refuge." },
   { "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ", "translation": "He neither begets nor is born," },
   { "arabic": "وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ", "translation": "Nor is there to Him any equivalent.'" }
 ],
 113: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ", "translation": "Say, 'I seek refuge in the Lord of daybreak'" },
   { "arabic": "مِن شَرِّ مَا خَلَقَ", "translation": "From the evil of that which He created" },
   { "arabic": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ", "translation": "And from the evil of darkness when it settles" },
@@ -13070,7 +12957,6 @@
   { "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ", "translation": "And from the evil of an envier when he envies.'" }
 ],
 114: [
-  { "arabic": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", "translation": "In the Name of Allah—the Most Compassionate, Most Merciful." },
   { "arabic": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ", "translation": "Say, 'I seek refuge in the Lord of mankind,'" },
   { "arabic": "مَلِكِ النَّاسِ", "translation": "The Sovereign of mankind," },
   { "arabic": "إِلَٰهِ النَّاسِ", "translation": "The God of mankind," },
