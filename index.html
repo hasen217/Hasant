@@ -1324,6 +1324,127 @@
             }
         }
 
+        /* ===== AUTO-READ PLAYER BAR ===== */
+        .auto-read-bar {
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%) translateY(100%);
+            width: 100%;
+            max-width: 520px;
+            background: linear-gradient(135deg, rgba(20, 20, 35, 0.97), rgba(30, 25, 50, 0.97));
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-top: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 18px 18px 0 0;
+            padding: 12px 16px 14px;
+            z-index: 9999;
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 -8px 40px rgba(0, 0, 0, 0.4);
+        }
+        .auto-read-bar.visible {
+            transform: translateX(-50%) translateY(0);
+        }
+        .auto-read-bar .ar-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .auto-read-bar .ar-title {
+            color: var(--gold);
+            font-size: 0.85rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .auto-read-bar .ar-title .ar-pulse {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #4ade80;
+            animation: arPulse 1.2s ease-in-out infinite;
+        }
+        @keyframes arPulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.4; transform: scale(0.7); }
+        }
+        .auto-read-bar .ar-ayah-label {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.75rem;
+        }
+        .auto-read-bar .ar-controls {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        .auto-read-bar .ar-btn {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #fff;
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.25s ease;
+        }
+        .auto-read-bar .ar-btn:hover {
+            background: rgba(212, 175, 55, 0.2);
+            border-color: var(--gold);
+            color: var(--gold);
+            transform: scale(1.08);
+        }
+        .auto-read-bar .ar-btn.ar-play-btn {
+            width: 52px;
+            height: 52px;
+            background: linear-gradient(135deg, var(--gold), #e8a900);
+            color: #1a1a2e;
+            border: none;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 20px rgba(212, 175, 55, 0.3);
+        }
+        .auto-read-bar .ar-btn.ar-play-btn:hover {
+            transform: scale(1.12);
+            box-shadow: 0 6px 28px rgba(212, 175, 55, 0.5);
+        }
+        .auto-read-bar .ar-btn.ar-stop-btn:hover {
+            background: rgba(239, 68, 68, 0.2);
+            border-color: #ef4444;
+            color: #ef4444;
+        }
+        .auto-read-bar .ar-progress {
+            width: 100%;
+            height: 3px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 3px;
+            margin-top: 10px;
+            overflow: hidden;
+        }
+        .auto-read-bar .ar-progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--gold), #e8a900);
+            border-radius: 3px;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        /* Currently playing ayah highlight */
+        .ayah-card.ayah-playing {
+            border-color: var(--gold) !important;
+            box-shadow: 0 0 25px rgba(212, 175, 55, 0.25), 0 0 60px rgba(212, 175, 55, 0.08) !important;
+            animation: ayahGlow 2s ease-in-out infinite;
+        }
+        @keyframes ayahGlow {
+            0%, 100% { box-shadow: 0 0 25px rgba(212, 175, 55, 0.25), 0 0 60px rgba(212, 175, 55, 0.08); }
+            50% { box-shadow: 0 0 35px rgba(212, 175, 55, 0.35), 0 0 80px rgba(212, 175, 55, 0.15); }
+        }
+
         .ayah-card:hover {
             transform: translateY(-3px);
             background: var(--ayah-hover-bg);
