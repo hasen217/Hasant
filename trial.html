@@ -4430,7 +4430,7 @@
         <!-- ============================================================
         NEW: DATE & TIME WIDGET SECTION
         ============================================================ -->
-        <section class="datetime-widget" aria-label="Date and Time Widget">
+        <section class="datetime-widget" id="datetimeWidget" aria-label="Date and Time Widget">
             <div class="datetime-card">
                 <!-- Top: Time + Day -->
                 <div class="datetime-top">
@@ -5937,6 +5937,14 @@
             }
         }
 
+        // ===== HELPER TO SHOW/HIDE DATE/TIME WIDGET =====
+        function setDateTimeVisibility(visible) {
+            const widget = document.getElementById('datetimeWidget');
+            if (widget) {
+                widget.style.display = visible ? '' : 'none';
+            }
+        }
+
         function showHome() {
             document.getElementById('homeSection').style.display = 'block';
             document.getElementById('featuresSection').style.display = 'block';
@@ -5946,8 +5954,9 @@
             
             hideAllScreens();
 
-            // Show footer on home
+            // Show footer and date/time widget on home
             setFooterVisibility(true);
+            setDateTimeVisibility(true);
         }
 
         function navigateTo(page) {
@@ -5998,8 +6007,9 @@
                 }
             } catch (e) { handleError(e, 'Error navigating to ' + page); }
 
-            // Hide footer on all non-home pages
+            // Hide footer and date/time widget on all non-home pages
             setFooterVisibility(false);
+            setDateTimeVisibility(false);
         }
 
         function hideAllScreens() {
